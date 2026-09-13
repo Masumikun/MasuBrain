@@ -1,0 +1,13 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1788296795
+icon.svg::CompressedTexture2D::4716767949747888546::1788417666::1788417667::1::::<><><>0<>0<>53b219a31f0096de76761853045c09ee<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://scenes/::1789310930
+aula_duo.gd::GDScript::6019993390768397605::1788979738::0::1::::<>Node2D<><>0<>0<><>::
+aula_um.gd::GDScript::8373714076581547420::1788539540::0::1::::<>Node2D<><>0<>0<><>::
+node_2d.tscn::PackedScene::5528637361246676561::1789310886::0::1::::<><><>0<>0<><>::uid://cyugptxnvtmhv::::res://scenes/Animais/animal.gd
+POO_um.gd::GDScript::3188541776464195963::1789225190::0::1::::<>Node2D<><>0<>0<><>::
+::res://scenes/Animais/::1789310963
+animal.gd::GDScript::6499053292738985851::1789310885::0::1::::Animal<>RefCounted<><>0<>0<><>::
+guara.gd::GDScript::1044330329772672237::1789310179::0::1::::<>Animal<><>0<>0<><>::
+urso_panda.gd::GDScript::5015069259662105404::1789310824::0::1::::<>Animal<><>0<>0<><>::
+::res://scenes/zoologiógico/::1789310963

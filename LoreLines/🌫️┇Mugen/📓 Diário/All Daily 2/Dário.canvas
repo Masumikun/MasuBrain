@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"c21d7564d46d1ad7","type":"file","file":"00-Meta/Diário/Refletindo.md","x":-4946,"y":2682,"width":160,"height":54},
+		{"id":"4fb328c33b28b09a","type":"text","text":"<center>\nAula com Akira","x":37,"y":-18,"width":250,"height":60,"color":"6"},
+		{"id":"2653375e2074a25b","type":"text","text":"Sobre uma aula de abordagem de **Ervas** e **Cristais**, sendo algo princípios da bruxaria","x":37,"y":112,"width":250,"height":148,"color":"6"},
+		{"id":"4ba1c5c6ea591e96","type":"text","text":"Hoje foi um dia bem cheio claramente me afetou forma bem ruim, estou devidamente **triste**, mas claramente vou fazer mudança para isso","x":420,"y":-18,"width":340,"height":158,"color":"#0000ff"},
+		{"id":"78bc69248187d311","type":"text","text":"<center>\nIrmão mais novo","x":463,"y":253,"width":250,"height":60,"color":"#0000ff"},
+		{"id":"20556e76470b7eb4","type":"text","text":"Psicopata que se acha como **Deus**, mas no fim passagem **bíblica** dele tudo sobre poder","x":840,"y":290,"width":300,"height":110,"color":"#0000ff"},
+		{"id":"c0e5360241325d54","type":"text","text":"<center>\nIrmã mais nova","x":960,"y":-18,"width":200,"height":58,"color":"#0000ff"},
+		{"id":"d16726a9fcadc56b","type":"text","text":"Sentir que tem amigos, mas tudo que passa por **estatística** de **fofoca**, nem mesmo **Deus** que ela segue deve ser bom, já que retrato se falam quem são.","x":1340,"y":11,"width":340,"height":149,"color":"#0000ff"},
+		{"id":"9e644bb9a90a55cf","type":"text","text":"<center>\nPai e Mãe","x":540,"y":-420,"width":220,"height":60,"color":"#0000ff"},
+		{"id":"9ad09565259b9678","type":"text","text":"Um boneco da minha irmã que **consideração** um conceito de em fim seguir lemas obedecer a <mark style=\"background: rgba(255, 255, 0, 0.5);\">mulheres</mark> como **boneco** próprio","x":900,"y":-620,"width":440,"height":120,"color":"#0000ff"},
+		{"id":"4725c9d2ac68e5f1","type":"text","text":"**Nazista** sempre está de olhos fechados para tudo\nComo se mundo fosse em seu **centro** de mundo.\n","x":820,"y":-260,"width":440,"height":100,"color":"#0000ff"},
+		{"id":"335eb156150c31d3","type":"text","text":"<center>\nIrmão mais velho","x":-2,"y":-260,"width":250,"height":60,"color":"#0000ff"},
+		{"id":"0b25f559afefee3e","type":"text","text":"Cavalo das **mulheres**, simplesmente o cara mais desejado como sexualmente adora parecer defensor da **mulheres**, mas morrera para uma que mata **homem**.","x":20,"y":-720,"width":349,"height":152,"color":"#0000ff"},
+		{"id":"cf50338b1bbf1dae","type":"text","text":"<center>\nPhonk/Funk","x":-1396,"y":-228,"width":250,"height":60,"color":"#303030"},
+		{"id":"df5eabe4f0bb40c8","type":"text","text":"Horrível de mais e criado para um rumo **celestial** para ***ilusões*** humanas","x":-1399,"y":-47,"width":253,"height":127,"color":"#2b2b2b"},
+		{"id":"b911b186f7bf1e90","type":"text","text":"<center>\nEstoicismo","x":-4936,"y":2442,"width":178,"height":52},
+		{"id":"4f63d0d37dfa1f0f","x":-4643,"y":2783,"width":250,"height":60,"type":"text","text":"<center>\nEgo"}
+	],
+	"edges":[
+		{"id":"d582b17ca3e9c724","fromNode":"4fb328c33b28b09a","fromSide":"bottom","toNode":"2653375e2074a25b","toSide":"top"},
+		{"id":"f18f6495d7a96ffc","fromNode":"4ba1c5c6ea591e96","fromSide":"bottom","toNode":"78bc69248187d311","toSide":"top"},
+		{"id":"6d6830976816f63c","fromNode":"78bc69248187d311","fromSide":"right","toNode":"20556e76470b7eb4","toSide":"left"},
+		{"id":"c3f4cde704e3ddfa","fromNode":"4ba1c5c6ea591e96","fromSide":"right","toNode":"c0e5360241325d54","toSide":"left"},
+		{"id":"eab9f100d71b24f5","fromNode":"c0e5360241325d54","fromSide":"right","toNode":"d16726a9fcadc56b","toSide":"left"},
+		{"id":"8abbbc3785983e6a","fromNode":"4ba1c5c6ea591e96","fromSide":"top","toNode":"9e644bb9a90a55cf","toSide":"bottom"},
+		{"id":"cf727d2b7b7262a8","fromNode":"9e644bb9a90a55cf","fromSide":"right","toNode":"9ad09565259b9678","toSide":"left"},
+		{"id":"0cf459a6a05bd147","fromNode":"9e644bb9a90a55cf","fromSide":"bottom","toNode":"4725c9d2ac68e5f1","toSide":"top"},
+		{"id":"584153662edd4fa8","fromNode":"4ba1c5c6ea591e96","fromSide":"left","toNode":"335eb156150c31d3","toSide":"right"},
+		{"id":"1129fad5dd770794","fromNode":"335eb156150c31d3","fromSide":"top","toNode":"0b25f559afefee3e","toSide":"bottom"},
+		{"id":"858bba642595010c","fromNode":"cf50338b1bbf1dae","fromSide":"bottom","toNode":"df5eabe4f0bb40c8","toSide":"top"},
+		{"id":"295b4e5f008a39b2","fromNode":"b911b186f7bf1e90","fromSide":"bottom","toNode":"c21d7564d46d1ad7","toSide":"top"},
+		{"id":"4a7a0c73f6c595bb","fromNode":"c21d7564d46d1ad7","fromSide":"right","toNode":"4f63d0d37dfa1f0f","toSide":"left"}
+	]
+}
