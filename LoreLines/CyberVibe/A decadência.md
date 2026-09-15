@@ -3,7 +3,6 @@ date created: Mon, Sep 7th 2026, 8:22:21 pm
 date modified: Sun, Sep 13th 2026, 2:59:30 am
 title: A Decadência
 tags:
-  - character
 ---
 
 # A Decadência

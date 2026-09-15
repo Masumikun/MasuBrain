@@ -1,59 +1,119 @@
 ---
-title: Fichário Criatura
+title: Gaia O Prelúdio
 date created: Fri, Sep 4th 2026, 11:10:07 am
-date modified: Fri, Sep 4th 2026, 9:07:01 pm
+date modified: Tue, Sep 15th 2026, 11:22:06 am
+tags:
+status:
 ---
 
-# Fichário Criatura
-| Dificuldade | PV  | PE  | Poder | Parâmetros | Características | PV adicional |
-| :---------: | :-: | :-: | :---: | :--------: | :-------------: | :----------: |
-|    Fácil    | 25  |  2  |   1   |     2      |        2        |      +4      |
-|   Normal    | 40  |  4  |   2   |     3      |        3        |      +8      |
-|   Difícil   | 80  |  8  |   3   |     4      |        5        |     +16      |
-|   Extrema   | 120 | 12  |   4   |     5      |        6        |     +32      |
+# Gaia O Prelúdio
+> Nivelamento 1
 
 ## Básico
-Nome da Criatura: 
-Nível: <mark style="background-color:rgba(255, 255, 0, 0.5)">1 a 6</mark>
-Dificuldade: \[<mark style="background-color:rgba(255, 255, 0, 0.5)">Fácil, Normal, Difícil, Extremo</mark>\]
-Poder: 
-Movimentação: <mark style="background-color:rgba(255, 255, 0, 0.5)">cada 2 pontos de Param. Def = +1 mov</mark>
+Jogador➣ 
+Criatura➣ 
+Nível➣ 1
 
-## Parâmetros
-> Distribution ponts
+Pontos de Vida
+- Máximo➣ `Valor total`
+- Temp➣ `Valor total/2`
+- Atual➣ `Valor total`
 
-Ofensivos: 
-Defensivos: 
+Pontos de Energia
+- Máximo➣ `Valor total`
+- Temp➣ `Valor total/2`
+- Atual➣ `Valor total`
 
-## Mecânica
-- Pontos de Vida (PV)
-	- Max: <mark style="background: rgba(255, 255, 0, 0.5);">PV + PV adicional</mark>
-	- Atual: <mark style="background: rgba(255, 255, 0, 0.5);">PV + PV adicional</mark>
-	- Temp: <mark style="background: rgba(255, 255, 0, 0.5);">PV + PV adicional / 2</mark>
+Poder➣ `Valor total`
+Dificuldade➣ **Dif.**
 
-- Pontos de Energia (PE)
-	- Max: <mark style="background: rgba(255, 255, 0, 0.5);">PE total</mark>
-	- Atual: <mark style="background: rgba(255, 255, 0, 0.5);">PE total</mark>
-	- Temp: <mark style="background: rgba(255, 255, 0, 0.5);">PE / 2</mark>
+Exaustão➣ 0/6
 
-### Tipo De Ataque
-Golpe Brutal: 
-Evocação Mística: 
+Movimentação➣ Esse valor é **aumentado** em 1 a cada 2 pontos nos **Parâmetros Defensivos** de uma criatura. (*6*)
+Bloqueio➣ 0
+
+## Parameters
+Ofensivos➣ 0
+Defensivos➣ 0
+
+## Tipo De Ataque
+Golpe Brutal➣ 1dx
+Evocação Mística➣ 1dx
 
 ## Livro Dos Seres
-◇ Comum
+◇ Comuns
 ◇ Ferais
 ◇ Do Véu
-◇ Não-vivos
+◇ Não-Vivos
 ◇ Elementais
 ◇ Primais
-◇ Artificial
+◇ Artificiais
 ◇ Abissais
 ◇ Celestiais
 
 ## Características
+
 ### Adicionais
 
+----
+# Gaia O Prelúdio
+> Nivelamento 6
 
-### Skill List
+## Básico
+Jogador➣ 
+Criatura➣ 
+Nível➣ 6
+
+Pontos de Vida
+- Máximo➣ 
+- Temp➣ 
+- Atual➣ 
+
+Pontos de Energia
+- Máximo➣ 
+- Temp➣ 
+- Atual➣ 
+
+Poder➣ 
+Dificuldade➣ 
+
+Exaustão➣ 0/6
+
+Movimentação➣ 6
+Bloqueio➣ 0
+
+## Parameters
+Ofensivos➣ 
+Defensivos➣ 
+
+## Tipo De Ataque
+Golpe Brutal➣ 
+Evocação Mística➣ 
+
+## Livro Dos Seres
+◇ Comuns
+◇ Ferais
+◇ Do Véu
+◇ Não-Vivos
+◇ Elementais
+◇ Primais
+◇ Artificiais
+◇ Abissais
+◇ Celestiais
+
+## Características
+
+### Adicionais
+
+## Anotações
+Percepção Passiva➣ 6
+
+- **Ação Final**➣ Esse tipo de **Característica** é utilizado somente quando uma criatura chega a zero, ou menos, **Pontos de Vida**, sendo o seu último efeito antes de morrer.
+<br>
+- **Cóleras**➣ Esse tipo de **Característica** é utilizado somente por criaturas de **Dificuldade Extrema**, sendo utilizado caso a criatura chegue à metade do seu total máximo de **Pontos de Vida** pela primeira vez em um combate.<br>
+Criaturas do **Homuncularium** só podem possuir uma única **Característica** do tipo **Cólera**.
+<br>
+- **Conhecimentos**➣ Criaturas do **Homuncularium** utilizam o seu **Poder** em todos os testes de **Conhecimento**.
+<br>
+
 

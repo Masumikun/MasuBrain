@@ -1,69 +1,208 @@
 ---
-title: Template
+title: Gaia O Prelúdio
 date created: Wed, Sep 2nd 2026, 7:26:43 pm
-date modified: Thu, Sep 3rd 2026, 9:23:44 pm
+date modified: Tue, Sep 15th 2026, 11:31:56 am
+tags:
+status:
 ---
 
-# Template
-> Gaia: O Prelúdio
+# Gaia O Prelúdio
+> Fichário de Jogador
 
 ## Básico
-Jogador: 
-Personagem: 
-Legado: 
-Nivel: 
+Jogador➣ 
+Personagem➣ 
+Legado➣ 
+Nível➣ 1
 
-Exaustão: ◇◇◇◇◇◇
-Movimentação: <mark style="background-color:rgba(255, 255, 0, 0.5)">6 + 1/2 Agilidade</mark>
-Bloqueio: <mark style="background-color:rgb(255, 255, 0, 0.5)">Armadura + Escudo</mark>
+Pontos de Vida
+- Máximo➣ 
+- Temp➣ 
+- Atual➣ 
 
-Idiomas: 
+Pontos de Energia
+- Máximo➣ 5
+- Temp➣ 2
+- Atual➣ 5
 
-## Parâmetro
-Vitalidade ◇◇◇◇◇◇
-Agilidade ◇◇◇◇◇◇
-Precisão ◇◇◇◇◇◇
-Brutalidade ◇◇◇◇◇◇
-Destreza ◇◇◇◇◇◇
-Canalização ◇◇◇◇◇◇
-Arcanismo ◇◇◇◇◇◇
-Espírito ◇◇◇◇◇◇
+Exaustão➣ 0/6
+
+Movimentação➣ 6 + <mark style="background: rgba(255, 255, 0, 0.5);">Agilidade/2</mark>
+Bloqueio➣ 0 \[<mark style="background: rgba(255, 255, 0, 0.5);">Armadura + Escudo</mark>\]
+
+## Parameters
+### Gerais
+Vitalidade➣ 0/6
+Agilidade➣ 0/6
+
+### Físicas
+Precisão➣ 0/6
+Brutalidade➣ 0/6
+Destreza➣ 0/6
+
+### Mental
+Canalização➣ 0/6
+Arcanismo➣ 0/6
+Espírito➣ 0/6
 
 ## Conhecimento
-Carisma ◇◇◇◇◇◇
-Con. Místico ◇◇◇◇◇◇
-Exploração ◇◇◇◇◇◇
-Furtividade ◇◇◇◇◇◇
-História ◇◇◇◇◇◇
-Intimidação ◇◇◇◇◇◇
-Intuição ◇◇◇◇◇◇
-Medicina ◇◇◇◇◇◇
-Percepção ◇◇◇◇◇◇
-Performance ◇◇◇◇◇◇
-Religião ◇◇◇◇◇◇
-Sobrevivência ◇◇◇◇◇◇
-Tecnologia ◇◇◇◇◇◇
-Vontade ◇◇◇◇◇◇
+Carisma➣ 0/6
+Con. Místico➣ 0/6
+Exploração➣ 0/6
+Furtividade➣ 0/6
+História➣ 0/6
+Intimidação➣ 0/6
+Intuição➣ 0/6
+Medicina➣ 0/6
+Percepção➣ 0/6
+Performance➣ 0/6
+Religião➣ 0/6
+Sobrevivência➣ 0/6
+Tecnologia➣ 0/6
+Vontade➣ 0/6
 
 ### Maestrias
+> Só pode marca se estiver ponto de acordo com o conhecimento que recebeu pontos
 
-## Habilidade De Legado
+- Carisma
+	- [ ] Lábia
+	- [ ] Oratória
+	- [ ] Persuasão
+- Con. Místico
+	- [ ] Idioma Antigo
+	- [ ] Mecanismos Místicos
+	- [ ] Planos
+- Exploração
+	- [ ] Condução Animal
+	- [ ] Condução Mecânica
+	- [ ] Orientação
+- Furtividade
+	- [ ] Disfarces
+	- [ ] Dissimulação
+	- [ ] Ocultação
+- História
+	- [ ] Idioma Novo
+	- [ ] Cultura
+	- [ ] Locais
+- Intimidação
+	- [ ] Amedrontar
+	- [ ] Coagir
+	- [ ] Provocar
+- Intuição
+	- [ ] Compreensão
+	- [ ] Instinto
+	- [ ] Suposição
+- Medicina
+	- [ ] Anatomia
+	- [ ] Doenças
+	- [ ] Primeiros Socorros
+- Percepção
+	- [ ] Investigação
+	- [ ] Perspicácia
+	- [ ] Vigilância
+- Performance
+	- [ ] Encenação
+	- [ ] Estética
+	- [ ] Ritmo
+- Religião
+	- [ ] Costumes
+	- [ ] História Divina
+	- [ ] Simbologia
+- Sobrevivência
+	- [ ] Abrigos
+	- [ ] Animais
+	- [ ] Plantas
+- Tecnologia
+	- [ ] Improviso
+	- [ ] Mecanismos Físicos
+	- [ ] Sabotagem
+- Vontade
+	- [ ] Autocontrole
+	- [ ] Coragem
+	- [ ] Determinação
+
+### Percepção Passiva
+> 6 + Percepção
+
+## Habilidades De Legados
+> 
 
 ## Equipamentos
 | Armamento | Dano | Alcance | Propriedade |
-| --- |  --- |  --- |  --- | 
+| --- | --- | --- | --- |
+| | | | |
+| | | | |
 | | | | |
 | | | | |
 
-| Armadura e Escudo | Bloqueio | Inaptidão | Propriedade |
-|  --- | --- |  --- |  --- |  
+| Armadura & Escudo | Bloqueio | Inaptidão | Propriedade |
+| --- | --- | --- | --- |
+| | | | |
+| | | | |
 | | | | |
 | | | | |
 
 ## Inventário
-- Moedas de Prata
-- Moedas de Ouro
-- Moedas Imperiais
+MP➣ 120
+MO➣ 
+MI➣ 
 
-Potência: \[\]\[05\]
-Pontuação de Unidade: \[\]\[<mark style="background-color:rgba(255, 255, 0, 0.5)">100 + 10 por Brutalidade</mark>\]
+Potência➣ 0/5
+Pontuação de Unidade➣ 33/120
+
+### Iniciais
+1 Conjunto de Roupas
+3 Rações
+1 Bolsa
+1 Saco de Dormir
+1 Cantil
+
+### Comprados
+
+
+## Habilidades De Caminho De Combate
+Nome➣ 
+Aprimoramentos A◇ B◇
+Custo PE➣ 
+Ações➣ I◇ A◇ P◇ R◇ S◇ Ac◇
+Conjuração ◇
+Tipo➣ 
+Duração➣ 
+Página➣ 
+Descrição➣ 
+
+Nome➣ 
+Aprimoramentos A◇ B◇
+Custo PE➣ 
+Ações➣ I◇ A◇ P◇ R◇ S◇ Ac◇
+Conjuração ◇
+Tipo➣ 
+Duração➣ 
+Página➣ 
+Descrição➣ 
+
+## Anotações
+- **Distribuição Inicial** (Nível de Despertar 1)
+- **Distribuição de Pontos**: 7 Parâmetros | 7 Conhecimentos
+- **Pontos de Vida**: 30 + *1d6* + **Vitalidade**
+- **Habilidades**: 2 de qualquer Caminho de Combate (Escolha)
+- **Pontos de Energia**: 5
+- **Maestria**: 2 de qualquer Conhecimento (Escolha)
+- **Recursos**: 120 Moeda de Prata (1 MO e 20 MP), 1 Conjunto de Roupas, 3 Rações, 1 Bolsa, 1 Saco de Dormir, 1 Cantil
+
+### Outros
+- Ações
+	- I (Iniciativa)
+	- A (Ativa)
+	- P (Passiva)
+	- R (Rápido)
+	- S (Simples)
+	- Ac (Acelerada)
+
+◆ = Marcado e +1
+◇ = Não marcado e +0
+
+- Máximo➣ Resultado total
+- Temp➣ **Máximo**/2
+- Atual➣ Igual ao **Máximo**
+- 

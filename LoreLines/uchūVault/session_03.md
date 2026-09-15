@@ -3,8 +3,7 @@ date created: Sun, Aug 30th 2026, 11:35:46 pm
 date modified: Thu, Sep 3rd 2026, 3:59:26 pm
 title: Era 1 — O Jogo
 tags:
-  - narrativa
-status: rascunho
+status:
 ---
 
 # Era 1 — O Jogo

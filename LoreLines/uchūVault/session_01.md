@@ -3,10 +3,7 @@ title: Começo
 date created: Sun, Aug 30th 2026, 11:35:46 pm
 date modified: Sat, Sep 5th 2026, 9:10:10 pm
 tags:
-  - narrativa
 status:
-  - rascunho
-  - 🟡 andamento
 ---
 
 # Começo

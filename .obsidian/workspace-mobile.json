@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1973621a95e47218",
+        "id": "59b72dc732a84f65",
         "type": "tabs",
         "children": [
           {
-            "id": "1fc09847a93ee391",
+            "id": "8b3996f78ced46c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LoreLines/CyberVibe/GeoBlood Florest.md",
+                "file": "Developments/GitVault/espelho/filoMasu.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "GeoBlood Florest"
-            }
-          },
-          {
-            "id": "de447c03979973b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "studying/Godot/aula_tres.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "aula_tres"
+              "title": "filoMasu"
             }
           }
         ]
@@ -65,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:Pós-Apocalíptico",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -199,36 +185,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1fc09847a93ee391",
+  "active": "8b3996f78ced46c2",
   "lastOpenFiles": [
-    "LoreLines/CyberVibe/prologue.md",
-    "LoreLines/CyberVibe/A decadência.md",
-    "LoreLines/CyberVibe/GeoBlood Florest.md",
-    "LoreLines/CyberVibe/The Hero.md",
-    "LoreLines/CyberVibe/Dhumaris.md",
-    "LoreLines/CyberVibe/Devoto (1).md",
-    "studying/Godot/LearnGD.md",
-    "studying/Godot/aula_tres.md",
-    "studying/Godot/aula_duo.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🌫️┇Mugen/Drawing 2026-07-21 02.51.33.excalidraw.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/KnoW/Tsuzuku/Criatura.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/KnoW/Tsuzuku/Oniricos.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/TSG/TSG.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/KnoW/KnoW.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/noted.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🌫️┇Mugen/五行.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🎭┇Roleplay/Kemono/Dificuldades/Easy.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🎭┇Roleplay/Kemono/Dificuldades/Extreme/1Criatura_e.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🎭┇Roleplay/Kemono/Dificuldades/hard/1Criatura_h.md",
-    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🎭┇Roleplay/Kemono/Dificuldades/normal/1Criatura_n.md",
     "GaiaVault/TempFP.md",
     "GaiaVault/TempFH.md",
+    "studying/Untitled.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🌫️┇Mugen/Drawing 2026-07-21 02.51.33.excalidraw.md",
+    "Obsidian.base",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🔨┇Tsukuru/Godot/TCharData.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🔨┇Tsukuru/CD_Writing/Chars.md",
+    "LoreLines/🌱┇ Shizuka/🌑┇Yami/📜┇Masusato Archives/NotaAutor(1).md",
+    "indexBox/ListName.md",
+    "indexBox/NotaAutor(1).md",
+    "LoreLines/🌱┇ Shizuka/🌑┇Yami/📜┇Masusato Archives/NotaAutor.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🎭┇Roleplay/RPG.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🎭┇Roleplay/Sho/Template_GFC.md",
+    "LoreLines/CyberVibe/A decadência.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🎭┇Roleplay/Sho/Players/Hiro.md",
     "GaiaVault/GM/homu_list.md",
-    "Untitled.md",
+    "indexBox/notepad.md",
+    "LoreLines/uchūVault/session_05.md",
+    "LoreLines/uchūVault/session_04.md",
+    "LoreLines/uchūVault/session_03.md",
+    "LoreLines/uchūVault/session_02.md",
+    "LoreLines/uchūVault/session_01.md",
+    "LoreLines/CyberVibe/The Hero.md",
+    "studying/Godot/aula_tres.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🌫️┇Mugen/五行.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/noted.md",
+    "LoreLines/CyberVibe/prologue.md",
     "Developments/Godot/lean-gd/scenes/POO_um.gd-dKyleK",
     "Developments/Godot/lean-gd/scenes/node_2d.tscn-wK00wP",
-    "studying/Godot/aula_um.md",
-    "DailyVault/day_cap1.md",
     "LoreLines/🌱┇ Shizuka/Assets/Icons/harpoon-trident.png",
     "LoreLines/🌱┇ Shizuka/Assets/Icons/hearts.png",
     "LoreLines/AU lines/Untitled",
@@ -237,7 +224,6 @@
     "MasuBrain.7z",
     "LoreLines/CyberVibe",
     "indexBox",
-    "Developments/ Scripts/Templater /HomuGenerator. js",
-    "Developments/ Scripts/Templater "
+    "Developments/ Scripts/Templater /HomuGenerator. js"
   ]
 }
