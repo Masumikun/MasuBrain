@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cwkhjet6p5fit"]
+
+[ext_resource type="Script" uid="uid://6pmmn7s2pm6k" path="res://Composicao/Entidade2DComposicao.gd" id="1_asv3t"]
+[ext_resource type="Script" uid="uid://blnhecan8dnfy" path="res://Composicao/ComponenteAtk.gd" id="2_i3lqw"]
+
+[node name="Composicao" type="Node2D" unique_id=2046489301 node_paths=PackedStringArray("componente_ataque")]
+script = ExtResource("1_asv3t")
+componente_ataque = NodePath("ComponenteAtaque")
+
+[node name="ComponenteAtaque" type="Node" parent="." unique_id=329221224]
+script = ExtResource("2_i3lqw")
+ataque = 5.0
+chance_critico = 15.0

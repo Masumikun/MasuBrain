@@ -1,6 +1,6 @@
 ---
 date created: Tue, Sep 8th 2026, 12:25:55 am
-date modified: Sun, Sep 13th 2026, 2:58:51 am
+date modified: Thu, Sep 17th 2026, 11:53:51 am
 title: A Espada De Sangue
 status:
 ---
@@ -23,7 +23,7 @@ Seguiu forma que acreditando que poderia acha que tudo daria certo para sua cren
 Apenas visual de entidade cômica da luz
 
 #### Marin
-Uma visão de local de seres abissais m
+Uma visão de local de seres abissais daqueles que o padre menciona serem os [[Dhumaris]]
 
 ### Dhunagi
 Não acreditam nele por não saber nada sobre ele

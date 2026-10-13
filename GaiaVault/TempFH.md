@@ -1,119 +1,105 @@
 ---
-title: Gaia O Prelúdio
+title: 🧬 {{title}}
 date created: Fri, Sep 4th 2026, 11:10:07 am
-date modified: Tue, Sep 15th 2026, 11:22:06 am
+date modified: Wed, Sep 30th 2026, 10:35:26 am
 tags:
-status:
+  - homuncularium
+  - criatura
+  - gaia
+dificuldade:
+tamanho: Médio
+nivel_criatura: 1
+pontos_desafio: 2
+livros: []
 ---
 
-# Gaia O Prelúdio
-> Nivelamento 1
+# 🧬 {{title}}
+**Conceito:** `Descrição breve, habitat e aparência`
+**Categoria de Tamanho:** `Pequeno | Médio | Grande | Enorme | Gigante` (Grid: `1x1`)
+**Pontos de Desafio:** `1 (Fácil) | 2 (Normal) | 6 (Difícil) | 8 (Extrema)`
 
-## Básico
-Jogador➣ 
-Criatura➣ 
-Nível➣ 1
+---
 
-Pontos de Vida
-- Máximo➣ `Valor total`
-- Temp➣ `Valor total/2`
-- Atual➣ `Valor total`
+> [!abstract] 📊 Status Vitais
+> | Atributo | Base (Máx) | Temp | Atual |
+> | :--- | :---: | :---: | :---: |
+> | **PV** | `___` | `___` | `___` |
+> | **PE** | `___` | `___` | `___` |
+> | **Exaustão** | 0/6 | | |
 
-Pontos de Energia
-- Máximo➣ `Valor total`
-- Temp➣ `Valor total/2`
-- Atual➣ `Valor total`
+> [!danger] ⚔️ Combate e Parâmetros
+> | Poder | Parâmetros Ofensivos | Parâmetros Defensivos | Bloqueio |
+> | :---: | :---: | :---: | :---: |
+> | `___` | `___` | `___` | 0 |
+> 
+> - **Movimentação:** `6 + (Defensivos ÷ 2)` = **___m**
+> - **Percepção Passiva:** `6 + Poder` = **___**
 
-Poder➣ `Valor total`
-Dificuldade➣ **Dif.**
+> [!note] 🛡️ Defesas e Imunidades
+> - **Resistências:** `Ex: Mágica[Fogo], Física`
+> - **Fraquezas:** `Ex: Mágica[Água]`
+> - **Imunidades:** `Ex: Sangramento, Envenenado, Lentidão`
 
-Exaustão➣ 0/6
+> [!warning] 🗡️ Ataques Padrão
+> - **Golpe Brutal** *(Ação Ativa | Físico)*: Teste de Precisão. 
+>   - **Dano:** `1d8` *(ou `d10` se Difícil/Extrema)* × Poder. **Alcance:** 1m.
+> - **Evocação Mística** *(Ação Ativa | 1 PE | Mágico Neutro)*: Teste de Canalização. 
+>   - **Dano:** `1d8` *(ou `d10` se Difícil/Extrema)* × Poder. **Alcance:** 8m.
 
-Movimentação➣ Esse valor é **aumentado** em 1 a cada 2 pontos nos **Parâmetros Defensivos** de uma criatura. (*6*)
-Bloqueio➣ 0
+---
 
-## Parameters
-Ofensivos➣ 0
-Defensivos➣ 0
+> [!info] 📖 Livro Dos Seres
+> - [ ] ◇ Comuns
+> - [ ] ◇ Ferais
+> - [ ] ◇ Do Véu
+> - [ ] ◇ Não-Vivos
+> - [ ] ◇ Elementais
+> - [ ] ◇ Primais
+> - [ ] ◇ Artificiais
+> - [ ] ◇ Abissais
+> - [ ] ◇ Celestiais
 
-## Tipo De Ataque
-Golpe Brutal➣ 1dx
-Evocação Mística➣ 1dx
+### 🧬 Característica Adicional (Obrigatória Do Livro)
+> **Nome:** 
+> *Efeito:* 
 
-## Livro Dos Seres
-◇ Comuns
-◇ Ferais
-◇ Do Véu
-◇ Não-Vivos
-◇ Elementais
-◇ Primais
-◇ Artificiais
-◇ Abissais
-◇ Celestiais
+### ⚙️ Características
+| Nome | Custo | Ação | Tipo | Efeito Resumido |
+| :--- | :---: | :---: | :---: | :--- |
+| `Característica 1` | `PE` | `Ativa/Simples/Rápida` | `Conjuração/Foco` | `Descrição...` |
+| `Característica 2` | `PE` | `Ativa/Simples/Rápida` | `Conjuração/Foco` | `Descrição...` |
 
-## Características
+### 👁️ Presença *(Apenas 1 Por criatura)*
+> **Nome:** 
+> **Alcance:** `___m`
+> *Efeito:* 
 
-### Adicionais
+### 🔥 Cólera *(Apenas Dificuldade Extrema)*
+> **Nome:** 
+> *Gatilho:* Chega à metade do PV máximo pela 1ª vez.
+> *Efeito:* 
 
-----
-# Gaia O Prelúdio
-> Nivelamento 6
+### 💀 Ação Final *(Apenas 1 Por criatura)*
+> **Nome:** 
+> *Gatilho:* Chega a 0 ou menos PV.
+> *Efeito:* 
 
-## Básico
-Jogador➣ 
-Criatura➣ 
-Nível➣ 6
+### 🧪 Experimento *(Apenas Artificiais)*
+> **Nome:** 
+> **Capacidade:** `___` *(Substitui o PV)*
+> *Efeito:* 
 
-Pontos de Vida
-- Máximo➣ 
-- Temp➣ 
-- Atual➣ 
+---
 
-Pontos de Energia
-- Máximo➣ 
-- Temp➣ 
-- Atual➣ 
+> [!tip] 🧠 Táticas do Narrador
+> - **Comportamento:** `Como a criatura age? Foge? Protege o bando?`
+> - **Alvo Preferencial:** `Quem ela ataca primeiro?`
+> - **Gatilhos de Fuga:** `Quando ela tenta escapar?`
 
-Poder➣ 
-Dificuldade➣ 
-
-Exaustão➣ 0/6
-
-Movimentação➣ 6
-Bloqueio➣ 0
-
-## Parameters
-Ofensivos➣ 
-Defensivos➣ 
-
-## Tipo De Ataque
-Golpe Brutal➣ 
-Evocação Mística➣ 
-
-## Livro Dos Seres
-◇ Comuns
-◇ Ferais
-◇ Do Véu
-◇ Não-Vivos
-◇ Elementais
-◇ Primais
-◇ Artificiais
-◇ Abissais
-◇ Celestiais
-
-## Características
-
-### Adicionais
-
-## Anotações
-Percepção Passiva➣ 6
-
-- **Ação Final**➣ Esse tipo de **Característica** é utilizado somente quando uma criatura chega a zero, ou menos, **Pontos de Vida**, sendo o seu último efeito antes de morrer.
-<br>
-- **Cóleras**➣ Esse tipo de **Característica** é utilizado somente por criaturas de **Dificuldade Extrema**, sendo utilizado caso a criatura chegue à metade do seu total máximo de **Pontos de Vida** pela primeira vez em um combate.<br>
-Criaturas do **Homuncularium** só podem possuir uma única **Característica** do tipo **Cólera**.
-<br>
-- **Conhecimentos**➣ Criaturas do **Homuncularium** utilizam o seu **Poder** em todos os testes de **Conhecimento**.
-<br>
-
-
+> [!success] 📈 Evolução (Por Nível de Criatura)
+> *Lembrete: A cada 6 níveis, ganha +1 Poder e +1 Ponto de Parâmetro.*
+> 
+> | Nível | PV Extra | PE Extra | Poder | Parâmetros |
+> | :---: | :---: | :---: | :---: | :---: |
+> | **Base** | `___` | `___` | `___` | `___` |
+> | **+6 Níveis** | +`___` | +3 | +1 | +1 |

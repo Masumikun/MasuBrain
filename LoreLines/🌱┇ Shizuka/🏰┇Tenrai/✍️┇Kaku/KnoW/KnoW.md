@@ -1,19 +1,19 @@
 ---
 date created: Mon, Sep 7th 2026, 7:46:32 pm
-date modified: Mon, Sep 7th 2026, 7:46:32 pm
+date modified: Thu, Oct 8th 2026, 1:54:31 am
 tags:
 status:
-title: Kemonotachi No Wakusei
+title: Book Untitled
 ---
 
-# Kemonotachi No Wakusei
+# Book Untitled
 > Dezembro/2025➣ O início
 > Janeiro/2026➣ Foi remastered
 > Maio/2026➣ Reescrita e remasterização
 
 [[NotaAutor]]
 
-[[Hito-bito/dictionary]]
+[[Hito-bito/dictionary|Dicio]]
 
 ---
 
@@ -146,7 +146,7 @@ Raposo➣ Sim... *afirmando*
 
 - ["] Enquanto os quatros lideres estavam se preparando para reunião, sobre situação que tomariam diante do raposo que pareceu recentemente.
 
-[[Kami-gami/Tadaki Okuno]]➣ Que precisa **Nozomi**?
+[[Kami-gami/Tadaki Okuno|Tadaki Okuno]]➣ Que precisa **Nozomi**?
 [[Kami-gami/Akimi Nozomi]]➣ Um Raposo, não registrado foi junto com duas **divisões** que possui, os Furrys (Avalis) que estão cumprindo ordens de divisão da minha **nação**
 [[Kami-gami/Naegi Kunie]]➣ Quero fala com dois **líderes** das **divisões** no local.
 Nozomi➣ Por que?
@@ -260,7 +260,7 @@ Rei➣ Certo... eu irei chamar de ❝Salvador da [[Kami-gami/Gami/1_Divindade]]
 
 ---
 
-# KnoW V2
+# Book Untitled V2
 Um universo onde tudo acontece dentro de algo místico, forjado pela idéias de um escritor que busca identidade, até mesmo diante de cada prosa e texto está fragmentos de um mistério por dentro de uma grande história.
 
 Cada era conta um prelúdio de existência do planetas, sempre que algo muda ou foi um evento ou uma era.

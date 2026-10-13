@@ -1,7 +1,7 @@
 ---
 title: Gaia O Prelúdio
 date created: Wed, Sep 2nd 2026, 7:26:43 pm
-date modified: Tue, Sep 15th 2026, 11:31:56 am
+date modified: Tue, Sep 15th 2026, 3:02:26 pm
 tags:
 status:
 ---
@@ -205,4 +205,3 @@ Descrição➣
 - Máximo➣ Resultado total
 - Temp➣ **Máximo**/2
 - Atual➣ Igual ao **Máximo**
-- 

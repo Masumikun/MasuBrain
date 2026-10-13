@@ -1,9 +1,10 @@
 ---
 date created: Sun, Aug 30th 2026, 11:35:46 pm
-date modified: Thu, Sep 3rd 2026, 3:59:26 pm
+date modified: Tue, Oct 6th 2026, 11:54:00 am
 title: Era 1 — O Jogo
 tags:
 status:
+  - 🟡 Andamento
 ---
 
 # Era 1 — O Jogo
@@ -32,6 +33,15 @@ A tela mudou para 3 cartas holográfica dando uma espaço moderado para cada uma
 > **Bloq**: +4
 > 
 > **Descrição**: Quando invocado dará mais **5 bloq** ao **alvo aliado**
+
+> [!cite] Arco curto
+> **Nome**: Bow
+> 
+> **SP**: -2
+> **Dano**: 5
+> 
+> **Dex**
+
 
 Miyano: “armas?… tem outra coisa?”
 

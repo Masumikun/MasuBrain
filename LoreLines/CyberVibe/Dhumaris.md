@@ -1,7 +1,7 @@
 ---
 title: Dhumaris
 date created: Tue, Sep 8th 2026, 12:45:01 am
-date modified: Sun, Sep 13th 2026, 2:57:14 am
+date modified: Tue, Sep 22nd 2026, 1:00:11 pm
 ---
 
 # Dhumaris
@@ -14,11 +14,16 @@ Olhos que carregam símbolos se sua aparência não forem nascidos com linhas, m
 \[em breve\]
 
 ## Dogmas
+Devido que único estabelecimento em suas origens foi uma divindade chamada Dhunagi, ele sendo o guia do destino para os Dhumaris.
+
 ### Aeraf
+Não acreditam nele por não saber nada sobre ele
+
 ### Cuzenarin
+Não acreditam nele por não saber nada sobre ele
 
 ### Dhunagi
-Não acreditam nele por não saber nada sobre ele
+Seu guia espiritual como divindade, sobre que acreditam como aquele que portador do destino para definir a origem de destino suas escolhas e posse de morte, eles vejam com sorriso para levará a paz punitivo aos ruins.
 
 ### Thozun
 Não acreditam nele por não saber nada sobre ele

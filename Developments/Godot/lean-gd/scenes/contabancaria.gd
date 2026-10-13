@@ -1,9 +1,19 @@
 extends Resource
 class_name ContaBancaria
 
-var _nome
-var _cpf
+var nome : 
+	set = _novo_nome, 
+	get = _retornar_nome
+
 var _saldo
 
-func registrar_nome(nome):
-	pass
+func _retornar_nome():
+	print("_retornar_nome")
+	return nome
+
+func _novo_nome(novo_nome):
+	print("_novo_nome")
+	nome = novo_nome
+
+func _init(nome) -> void:
+	self.nome = nome

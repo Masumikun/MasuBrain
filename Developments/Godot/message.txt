@@ -1,0 +1,610 @@
+extends Control
+
+@export var member_1: Marker2D
+@export var member_2: Marker2D
+@export var member_3: Marker2D
+@export var enemy_1: Marker2D
+@export var enemy_2: Marker2D
+@export var enemy_3: Marker2D
+
+@export var action_menu: Node2D
+@export var lifebar: Node2D
+@export var combat_inventory: TextureRect
+@export var selection_arrow: Node2D
+@export var combat_camera: Camera2D
+@export var advantage_bar: TextureProgressBar
+@export var background: TextureRect
+
+@export var anim: AnimationPlayer
+@export var fx_anim: AnimationPlayer
+@export var bg_anim: AnimationPlayer
+
+@export var action_particles: CPUParticles2D
+@export var action_particles_2: CPUParticles2D
+
+@export var class_name_lbl: RichTextLabel
+@export var class_desc_lbl: RichTextLabel
+
+@export var first_battle_cutscene: Node2D
+
+
+@export var letters_timer: Timer
+
+@export var selecting_member_sfx: AudioStreamPlayer
+@export var selecting_enemy_sfx: AudioStreamPlayer
+@export var selected_sfx: AudioStreamPlayer
+@export var action_chosed_sfx: AudioStreamPlayer
+
+enum combat_state {SELECTING_MEMBER, SELECTING_ENEMY, ACTION_MENU, INVENTORY, ANIMATION}
+var combat_actual_state = combat_state.SELECTING_MEMBER
+enum combat_action {NULL, ATTACK, INVENTORY, PASS}
+var actual_action = combat_action.NULL
+
+var advantage_amount: float = 300.0
+var member_index: int = 0
+var enemy_index: int = 0
+
+var block_input: bool = false
+
+var actor = null
+var action = null
+var item = null
+var target = null
+
+var turn_queue = []
+
+var members_pos: Array
+
+func _ready() -> void:
+	Global.game_actual_state = Global.game_state.in_combat
+	Global.camera.enabled = false
+	Global.combat_scene = self
+	
+	if Global.actual_map:
+		Global.actual_map.visible = false
+		Global.actual_map.process_mode = Node.PROCESS_MODE_DISABLED
+	if Global.mainscene:
+		Global.mainscene.black_bg_anim.play("flash")
+	fx_anim.play("RESET")
+	
+	for inimigo in Global.enemy_party:
+		match Global.enemy_party.find(inimigo):
+			0:
+				inimigo.global_position = enemy_1.global_position
+			1:
+				inimigo.global_position = enemy_2.global_position
+			2:
+				inimigo.global_position = enemy_3.global_position
+		inimigo.anim.play("idle combat")
+		inimigo.spr.flip_h = false
+	
+	for membro in Global.party_members:
+		members_pos.append({"name": membro.status["name"], "pos": membro.global_position})
+		if membro.status["name"] == "Sarah":
+			membro.global_position = member_2.global_position
+			actor = membro
+			selection_arrow.global_position = actor.global_position + Vector2(30, 0)
+			selection_arrow._selection_update(actor)
+		elif membro.status["name"] == "Sophia":
+			membro.global_position = member_3.global_position
+		elif membro.status["name"] == "Saimon":
+			membro.global_position = member_1.global_position
+		membro.anim.play("idle combat")
+		membro.spr.flip_h = false
+	
+	MusicPlayer._change_music(MusicPlayer.all_musics[1])
+	#if Global.sky_fortress_events["cutscene1.8"] == false:
+		#first_battle_cutscene._start_cutscene()
+	#else:
+	await get_tree().create_timer(16.0).timeout
+	bg_anim.play("bg rainbow")
+
+func _input(event: InputEvent) -> void:
+	if block_input:
+		return
+	if Global.dialogbox.box_spr.visible == true:
+		return
+	if Global.game_actual_state != Global.game_state.in_combat:
+		return
+	
+	if event.is_action_pressed("ui_up"):
+		_selecting_up()
+	elif event.is_action_pressed("ui_down"):
+		_selecting_down()
+	elif event.is_action_pressed("interact"):
+		_interact()
+	elif event.is_action_pressed("cancel"):
+		_cancel()
+
+func _process(delta: float) -> void:
+	print(combat_state.keys()[combat_actual_state])
+	_advantage_bar()
+
+func _interact():
+	if combat_actual_state == combat_state.SELECTING_MEMBER:
+		if item and action == "inventory":
+			if target.status["hp"] > 0:
+				_transition("normal")
+				if advantage_amount >= 50 and not action_menu.can_select:
+					_action_maker()
+			else:
+				EffectsGlobals._start_effect(EffectsGlobals.all_effects["down_effect"], actor)
+		elif actor:
+			selecting_member_sfx.play()
+			combat_actual_state = combat_state.ACTION_MENU
+			fx_anim.play("black border")
+			_class_text()
+			_transition("action_menu")
+	elif combat_actual_state == combat_state.SELECTING_ENEMY:
+		if target.status["hp"] > 0:
+			selecting_enemy_sfx.play()
+			combat_actual_state = combat_state.SELECTING_MEMBER
+			_transition("normal")
+			if actor and action and target:
+				if advantage_amount >= 50 and not action_menu.can_select:
+					_action_maker()
+					fx_anim.play("white flash border")
+					await fx_anim.animation_finished
+					fx_anim.play_backwards("black border")
+		else:
+			EffectsGlobals._start_effect(EffectsGlobals.all_effects["down_effect"], target)
+
+func _cancel():
+	selected_sfx.play()
+	if combat_actual_state == combat_state.SELECTING_MEMBER:
+		if item:
+			_transition("inventory")
+			combat_actual_state = combat_state.INVENTORY
+			
+			if combat_inventory.itens_Container.get_child(0):
+				combat_inventory.itens_Container.get_child(0).button.grab_focus()
+			
+			InventoryGlobals.item_selected = null
+			InventoryGlobals.target_to_use = null
+	elif combat_actual_state == combat_state.ACTION_MENU:
+		fx_anim.play_backwards("black border")
+		_transition("normal")
+		combat_actual_state = combat_state.SELECTING_MEMBER
+		action = null
+	elif combat_actual_state == combat_state.SELECTING_ENEMY:
+		if actor and target:
+			fx_anim.play("black border")
+			_class_text()
+			_transition("action_menu")
+			combat_actual_state = combat_state.ACTION_MENU
+			action_menu.global_position = actor.global_position + Vector2(50, 0)
+			action_menu.can_select = true
+			action_menu.visible = true
+			lifebar.visible = true
+			action = null
+			target = null
+	elif combat_actual_state == combat_state.INVENTORY:
+		if actor:
+			fx_anim.play("black border")
+			_class_text()
+			_transition("action_menu")
+			combat_actual_state = combat_state.ACTION_MENU
+			action_menu.global_position = actor.global_position + Vector2(50, 0)
+			action_menu.can_select = true
+			action_menu.visible = true
+			lifebar.visible = true
+			
+			action = null
+			item = null
+
+func _selecting_up():
+	selected_sfx.play()
+	if combat_actual_state == combat_state.SELECTING_MEMBER:
+		if actor and item and action == "inventory":
+			member_index -= 1
+			member_index = clamp(member_index, 0, Global.party_members.size() -1)
+			target = Global.party_members[member_index]
+			_transition("target")
+			selection_arrow.global_position = target.global_position + Vector2(30, 0)
+			selection_arrow._selection_update(target)
+		else:
+			member_index -= 1
+			member_index = clamp(member_index, 0, Global.party_members.size() -1)
+			actor = Global.party_members[member_index]
+			selection_arrow.global_position = actor.global_position + Vector2(30, 0)
+			selection_arrow._selection_update(actor)
+	elif combat_actual_state == combat_state.SELECTING_ENEMY:
+		enemy_index -= 1
+		enemy_index = clamp(enemy_index, 0, Global.enemy_party.size() -1)
+		target = Global.enemy_party[enemy_index]
+		_transition("target")
+		selection_arrow.global_position = target.global_position + Vector2(-30, 0)
+		selection_arrow._selection_update(target)
+
+func _selecting_down():
+	selected_sfx.play()
+	if combat_actual_state == combat_state.SELECTING_MEMBER:
+		if actor and item and action == "inventory":
+			member_index += 1
+			member_index = clamp(member_index, 0, Global.party_members.size() -1)
+			target = Global.party_members[member_index]
+			_transition("target")
+			selection_arrow.global_position = target.global_position + Vector2(30, 0)
+			selection_arrow._selection_update(target)
+		else:
+			member_index += 1
+			member_index = clamp(member_index, 0, Global.party_members.size() -1)
+			actor = Global.party_members[member_index]
+			selection_arrow.global_position = actor.global_position + Vector2(30, 0)
+			selection_arrow._selection_update(actor)
+	elif combat_actual_state == combat_state.SELECTING_ENEMY:
+		enemy_index += 1
+		enemy_index = clamp(enemy_index, 0, Global.enemy_party.size() -1)
+		target = Global.enemy_party[enemy_index]
+		_transition("target")
+		selection_arrow.global_position = target.global_position + Vector2(-30, 0)
+		selection_arrow._selection_update(target)
+
+func _advantage_bar():
+	if advantage_bar.value != advantage_amount:
+		anim.play("advantage bar fill")
+	advantage_amount = clamp(advantage_amount, 0, 300)
+	while advantage_bar.value > advantage_amount:
+		advantage_bar.value -= 0.1
+		await get_tree().process_frame
+	while advantage_bar.value < advantage_amount:
+		advantage_bar.value += 0.1
+		await get_tree().process_frame
+
+func _transition(to: String):
+	if to == "action_menu":
+		_class_text()
+		actor.anim.play("selected")
+		
+		action_menu.global_position = actor.global_position + Vector2(50, 0)
+		action_menu.anim.play("appear")
+		action_menu._panel_style(actor)
+		
+		lifebar.global_position = actor.global_position + Vector2(-20, 20)
+		lifebar.anim.play("appear")
+		lifebar._update_bar(actor)
+		
+		selection_arrow.anim.play_backwards("appear")
+		
+		var camera_zoom = create_tween().set_parallel()
+		camera_zoom.tween_property(combat_camera, "position", Vector2(actor.global_position.x, actor.global_position.y), 0.2)
+		camera_zoom.tween_property(combat_camera, "zoom", Vector2(1.5, 1.5), 0.2)
+		
+		if Global.combat_scene.combat_inventory.visible:
+			Global.combat_scene.combat_inventory.inventory_anim.play_backwards("open-close")
+			Global.combat_scene.combat_inventory.visible = false
+		action_menu.can_select = true
+		action_menu.visible = true
+		lifebar.visible = true
+	elif to == "normal":
+		actor.anim.play("idle combat")
+		
+		var camera_zoom = create_tween().set_parallel()
+		camera_zoom.tween_property(combat_camera, "position", Vector2(160.0, 81.0), 0.2)
+		camera_zoom.tween_property(combat_camera, "zoom", Vector2(1.0, 1.0), 0.2)
+		
+		action_menu.anim.play_backwards("appear")
+		lifebar.anim.play_backwards("appear")
+		
+		selection_arrow.anim.play("appear")
+		selection_arrow.global_position = actor.global_position + Vector2(30, 0)
+		selection_arrow._selection_update(actor)
+		
+		if Global.combat_scene.combat_inventory.visible:
+			Global.combat_scene.combat_inventory.inventory_anim.play_backwards("open-close")
+			Global.combat_scene.combat_inventory.visible = false
+		
+		action_menu.visible = false
+		lifebar.visible = false
+		selection_arrow.visible = true
+	elif to == "inventory":
+		actor.anim.play("idle combat")
+		
+		var camera_zoom = create_tween().set_parallel()
+		camera_zoom.tween_property(combat_camera, "position", Vector2(actor.global_position.x - 50, actor.global_position.y), 0.2)
+		camera_zoom.tween_property(combat_camera, "zoom", Vector2(1.5, 1.5), 0.2)
+		
+		action_menu.anim.play_backwards("appear")
+		lifebar.anim.play_backwards("appear")
+		selection_arrow.anim.play_backwards("appear")
+		
+		Global.combat_scene.combat_inventory.visible = true
+		Global.combat_scene.combat_inventory.inventory_anim.play("open-close")
+		
+		action_menu.visible = false
+		lifebar.visible = false
+		selection_arrow.visible = false
+	elif to == "watch":
+		actor.anim.play("idle combat")
+		
+		var camera_zoom = create_tween().set_parallel()
+		camera_zoom.tween_property(combat_camera, "position", Vector2(160.0, 81.0), 0.2)
+		camera_zoom.tween_property(combat_camera, "zoom", Vector2(1.0, 1.0), 0.2)
+		
+		action_menu.anim.play_backwards("appear")
+		lifebar.anim.play_backwards("appear")
+		selection_arrow.anim.play_backwards("appear")
+		
+		selection_arrow.global_position = actor.global_position + Vector2(30, 0)
+		selection_arrow._selection_update(actor)
+		
+		if Global.combat_scene.combat_inventory.visible:
+			Global.combat_scene.combat_inventory.inventory_anim.play_backwards("open-close")
+			Global.combat_scene.combat_inventory.visible = false
+		
+		action_menu.visible = false
+		lifebar.visible = false
+		selection_arrow.visible = false
+	elif to == "actor":
+		selection_arrow.anim.play("appear")
+		selection_arrow.global_position = actor.global_position + Vector2(30, 0)
+		selection_arrow._selection_update(actor)
+		
+		var camera_zoom = create_tween().set_parallel()
+		camera_zoom.tween_property(combat_camera, "position", Vector2(actor.global_position.x, actor.global_position.y), 0.2)
+		camera_zoom.tween_property(combat_camera, "zoom", Vector2(1.5, 1.5), 0.2)
+		
+		if Global.combat_scene.combat_inventory.visible:
+			Global.combat_scene.combat_inventory.inventory_anim.play_backwards("open-close")
+			Global.combat_scene.combat_inventory.visible = false
+		
+		action_menu.visible = false
+		lifebar.visible = false
+	elif to == "target":
+		selection_arrow.anim.play("appear")
+		selection_arrow.global_position = target.global_position + Vector2(-30, 0)
+		selection_arrow._selection_update(target)
+		
+		var camera_zoom = create_tween().set_parallel()
+		camera_zoom.tween_property(combat_camera, "position", Vector2(target.global_position.x, target.global_position.y), 0.2)
+		camera_zoom.tween_property(combat_camera, "zoom", Vector2(1.5, 1.5), 0.2)
+		
+		if Global.combat_scene.combat_inventory.visible:
+			Global.combat_scene.combat_inventory.inventory_anim.play_backwards("open-close")
+			Global.combat_scene.combat_inventory.visible = false
+		
+		action_menu.visible = false
+		lifebar.visible = false
+
+func _class_text():
+	if actor:
+		class_name_lbl.text = actor.status["class"]
+		class_desc_lbl.text = actor.status["passive"]
+	
+	class_desc_lbl.visible_characters = 0
+	class_name_lbl.visible_characters = 0
+	letters_timer.start()
+
+func _action_maker():
+	if actor and action and target:
+		if action == "attack":
+			var repeated = false
+			
+			for entry in turn_queue:
+				if entry["action"] == action and entry["actor"] == actor and entry["target"] == target:
+					entry["times"] += 1
+					repeated = true
+					break
+			
+			if not repeated:
+				turn_queue.append({"actor": actor, "action": action, "times": 1, "target": target},)
+		elif item and action == "inventory":
+			if item.item_slot_info["item_category"].contains("item"):
+				_use_item(target, item)
+			else:
+				turn_queue.append({"actor": actor, "action": action, "item": item, "target": target})
+	
+	if not item or item and not item.item_slot_info["item_category"].contains("advantage buff"):
+		advantage_amount -= 50
+	
+	if advantage_amount < 50:
+		_execute_actions()
+	action_chosed_sfx.play()
+	item = null
+	action = null
+	target = null
+
+func _execute_actions():
+	_transition("watch")
+	fx_anim.play_backwards("black border")
+	combat_actual_state = combat_state.ANIMATION
+	block_input = true
+	for key in turn_queue:
+		if key["action"] == "attack":
+			action_particles.emitting = true
+			action_particles_2.emitting = true
+			key["actor"].anim.play(str(key["times"]) + " attack")
+			await key["actor"].anim.animation_finished
+			for i in range(key["times"]):
+				key["target"].anim.play("attack")
+				key["target"].status["hp"] -= key["actor"].status["attack"]
+				EffectsGlobals._effect_number(key["actor"].status["attack"], "attack", key["target"])
+				EffectsGlobals._start_effect(EffectsGlobals.all_effects["damage_effect"], key["target"])
+				EffectsGlobals._shake(combat_camera, 2, 5.0, 0.1)
+				await get_tree().create_timer(0.2).timeout
+				key["target"].anim.stop()
+			if key["actor"].status["name"] == "Sophia":
+					var hp_division = key["actor"].status["attack"] / Global.party_members.size()
+					for membro in Global.party_members:
+						membro.status["hp"] += hp_division
+						EffectsGlobals._effect_number(hp_division, "health", membro)
+						await get_tree().create_timer(0.1).timeout
+			key["actor"].anim.play("idle combat")
+			if key["target"].status["hp"] > 0:
+				key["target"].anim.play("idle combat")
+			else:
+				key["target"].anim.play("death")
+				key["target"].fx_anim.play("death slide")
+			action_particles.emitting = false
+			action_particles_2.emitting = false
+		elif key["action"] == "inventory":
+			if key["item"].item_slot_info["item_category"].contains("item"):
+				_use_item(key["target"], key["item"])
+				return
+			elif key["item"].item_slot_info["item_category"].contains("artifact"):
+				var script = load(key["item"].item_slot_info["script"])
+				var instance = script.new()
+				if key["actor"].status["name"] == "Sarah":
+					if "damage" in instance:
+						instance.damage = instance.damage * (1 + 0.20)
+				instance._spell(key["target"])
+	
+	turn_queue.clear()
+	for membro in Global.party_members:
+		membro.status["damage buff"] = 0
+		membro.status["defense buff"] = 0
+	_victory_result()
+	_enemy_turn()
+
+func _enemy_turn():
+	await get_tree().create_timer(1.0).timeout
+	_transition("normal")
+	for inimigo in Global.enemy_party:
+		if inimigo:
+			inimigo._make_strategy()
+		await get_tree().create_timer(0.3).timeout
+	combat_actual_state = combat_state.SELECTING_MEMBER
+	advantage_amount += 50
+
+func _use_item(inv_target, inv_item):
+	block_input = true
+	inv_target.anim.play("use item")
+	await inv_target.anim.animation_finished
+	if inv_item.item_slot_info["item_category"].contains("health buff"):
+		inv_target.status["hp"] += inv_item.item_slot_info["health buff"]
+		
+		fx_anim.play("health")
+		EffectsGlobals._effect_number(inv_item.item_slot_info["health buff"], "health", inv_target)
+		for i in range(3):
+			inv_target.anim.play("health buff")
+			await inv_target.anim.animation_finished
+	elif inv_item.item_slot_info["item_category"].contains("advantage buff"):
+		advantage_amount += inv_item.item_slot_info["advantage buff"]
+		
+		fx_anim.play("advantage")
+		EffectsGlobals._effect_number(inv_item.item_slot_info["advantage buff"], "advantage", inv_target)
+		for i in range(3):
+			inv_target.anim.play("advantage buff")
+			await inv_target.anim.animation_finished
+	elif inv_item.item_slot_info["item_category"].contains("attack buff"):
+		inv_target.status["attack buff"] += inv_item.item_slot_info["attack buff"]
+		
+		fx_anim.play("attack")
+		EffectsGlobals._effect_number(inv_item.item_slot_info["attack buff"], "attack", inv_target)
+		for i in range(3):
+			inv_target.anim.play("attack buff")
+			await inv_target.anim.animation_finished
+	elif inv_target.item_slot_info["item_category"].contains("resistence buff"):
+		inv_target.status["resistence buff"] += inv_item.item_slot_info["resistence buff"]
+		
+		fx_anim.play("resistence")
+		EffectsGlobals._effect_number(inv_item.item_slot_info["resistence buff"], "resistence", inv_target)
+		for i in range(3):
+			inv_target.anim.play("resistence buff")
+			await inv_target.anim.animation_finished
+	
+	inv_item._use()
+	inv_target.anim.play("idle combat")
+	block_input = false
+
+func _on_action_menu_attack() -> void:
+	if block_input:
+		return
+	
+	action = "attack"
+	combat_actual_state = combat_state.SELECTING_ENEMY
+	action_menu.can_select = false
+	enemy_index = 0
+	target = Global.enemy_party[0]
+	_transition("target")
+	
+	action_menu.visible = false
+	lifebar.visible = false
+	selection_arrow.visible = true
+	
+	fx_anim.play("white flash border")
+
+func _on_action_menu_inventory() -> void:
+	if block_input:
+		return
+	
+	
+	action = "inventory"
+	combat_actual_state = combat_state.INVENTORY
+	
+	_transition("inventory")
+	combat_inventory.visible = true
+	combat_inventory.itens_Container.visible = true
+	combat_inventory.artifacts_Container.visible = false
+	if combat_inventory.itens_Container.get_child(0):
+		combat_inventory.itens_Container.get_child(0).button.grab_focus()
+	
+	combat_inventory.inventory_anim.play("open-close")
+	action_menu.can_select = false
+	
+	fx_anim.play("white flash border")
+	await fx_anim.animation_finished
+	fx_anim.play_backwards("black border")
+
+
+func _on_action_menu_pass_or_run() -> void:
+	if block_input:
+		return
+	fx_anim.play("white flash border")
+	_transition("normal")
+	combat_actual_state = combat_state.SELECTING_MEMBER
+	_execute_actions()
+
+func _victory_result():
+	var members_defeated: int = 0
+	var enemies_defeated: int = 0
+	for membro in Global.party_members:
+		if membro.status["hp"] <= 0:
+			members_defeated += 1
+	
+	for inimigo in Global.enemy_party:
+		if inimigo.status["hp"] <= 0:
+			enemies_defeated += 1
+	
+	if members_defeated >= Global.party_members.size():
+		pass
+	if enemies_defeated >= Global.enemy_party.size():
+		for membro in Global.party_members:
+			membro.anim.play("victory pose")
+		await get_tree().create_timer(2.0).timeout
+		
+		for pos in members_pos:
+			for membro in Global.party_members:
+				if pos["name"] == membro.status["name"]:
+					membro.global_position = pos["pos"]
+		for inimigo in Global.enemy_party:
+			inimigo.queue_free()
+		Global.game_actual_state = Global.game_state.free
+		Global.camera.enabled = true
+		if Global.actual_map:
+			Global.actual_map._ready()
+			Global.actual_map.visible = true
+			Global.actual_map.process_mode = Node.PROCESS_MODE_INHERIT
+		if Global.mainscene:
+			Global.mainscene.black_bg_anim.play("flash")
+		queue_free()
+	fx_anim.play("white flash border")
+	await fx_anim.animation_finished
+	fx_anim.play_backwards("black border")
+
+
+func _on_letters_timer_timeout() -> void:
+	var letters_completed: int = 0
+	 
+	if  class_name_lbl.visible_characters < class_name_lbl.text.length():
+		class_name_lbl.visible_characters += 1
+	else:
+		letters_completed += 1
+	
+	if class_desc_lbl.visible_characters < class_desc_lbl.text.length():
+		class_desc_lbl.visible_characters += 1
+	else:
+		letters_completed += 1
+	
+	if letters_completed < 2:
+		letters_timer.start()

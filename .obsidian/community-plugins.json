@@ -1,14 +1,14 @@
 [
-  "calendar",
-  "dataview",
-  "style-manager",
-  "obsidian-kanban",
-  "periodic-notes",
-  "readwise-official",
-  "obsidian-smart-typography",
-  "obsidian-linter",
-  "colored-text",
-  "highlightr-plugin",
   "templater-obsidian",
-  "obsidian-excalidraw-plugin"
+  "style-manager",
+  "obsidian-smart-typography",
+  "readwise-official",
+  "periodic-notes",
+  "obsidian-linter",
+  "obsidian-kanban",
+  "highlightr-plugin",
+  "obsidian-excalidraw-plugin",
+  "dataview",
+  "colored-text",
+  "calendar"
 ]

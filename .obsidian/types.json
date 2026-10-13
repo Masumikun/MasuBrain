@@ -5,6 +5,9 @@
     "tags": "tags",
     "created": "datetime",
     "modified": "datetime",
-    "daily": "date"
+    "daily": "date",
+    "status": "multitext",
+    "dificuldade": "text",
+    "title": "text"
   }
 }

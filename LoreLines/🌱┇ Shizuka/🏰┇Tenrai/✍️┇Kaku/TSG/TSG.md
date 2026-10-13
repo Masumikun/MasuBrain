@@ -1,13 +1,11 @@
 ---
 date created: Mon, Sep 7th 2026, 7:45:41 pm
-date modified: Mon, Sep 7th 2026, 7:45:41 pm
+date modified: Thu, Oct 8th 2026, 2:08:10 am
 status:
-aliases:
-  - The Space of Grutas
-title: The Space of Grutas
+title: Book Untitled
 ---
 
-# The Space of Grutas
+# Book Untitled
 ## Era Hectrr
 > ⏳ Antes da explosão 
 

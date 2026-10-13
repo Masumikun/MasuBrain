@@ -1,6 +1,6 @@
 ---
 date created: Mon, Sep 7th 2026, 8:29:07 pm
-date modified: Tue, Sep 15th 2026, 11:17:33 am
+date modified: Mon, Sep 21st 2026, 3:56:27 am
 status:
 title: CharData
 tags:

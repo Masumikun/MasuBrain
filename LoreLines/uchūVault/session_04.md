@@ -1,9 +1,10 @@
 ---
 title: Era 1 — O Inicial
 date created: Sun, Aug 30th 2026, 11:35:46 pm
-date modified: Thu, Sep 3rd 2026, 3:59:26 pm
+date modified: Tue, Oct 6th 2026, 12:21:35 pm
 tags:
 status:
+  - 🟡 Andamento
 ---
 
 # Era 1 — O Inicial

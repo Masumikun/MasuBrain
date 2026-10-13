@@ -1,6 +1,6 @@
 ---
 date created: Mon, Sep 7th 2026, 8:22:21 pm
-date modified: Sun, Sep 13th 2026, 2:59:30 am
+date modified: Tue, Sep 22nd 2026, 12:59:07 pm
 title: A Decadência
 tags:
 ---
@@ -30,8 +30,16 @@ Forma que oniricos falam podem imitar um humano para se semelhante, mas criatura
 Sendo de aparência de cabeça de máscara de hollow, diante disso está com manto preto como veste, para poder cobri seu corpo, que tinha tom de pele esverdeado com linhas eram como espiral seguiam pontos do corpo sendo longos ligamentos de ponta a ponta, seus olhos são frios e sem vida
 
 ## Dogma
+Não acredita em nem uma divindade devido que veio do espaço algo que aconteceu dentro da história nem uma divindade foi ensinada para ela.
+
 ### Dhunagi
-Não acreditam nele por não saber nada sobre ele
+Não acredita nele por não saber nada sobre ele
 
 ### Thozun
-Não acreditam nele por não saber nada sobre ele
+Não acredita nele por não saber nada sobre ele
+
+### Cuzenarin
+Não acredita nele por não saber nada sobre ele
+
+### Thozun
+Não acredita nele por não saber nada sobre ele
