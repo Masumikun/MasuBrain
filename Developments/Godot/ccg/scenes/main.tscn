@@ -1,15 +1,20 @@
 [gd_scene format=3 uid="uid://chuhgw1nrfeh4"]
 
 [ext_resource type="Script" uid="uid://bxohn57bwn65m" path="res://scripts/cardmanager.gd" id="1_0wfyh"]
-[ext_resource type="PackedScene" uid="uid://bfetwu640f2ys" path="res://scenes/tcard.tscn" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://bfetwu640f2ys" path="res://scenes/tcard.tscn" id="2_jyhfs"]
+[ext_resource type="Script" uid="uid://650qcfgabri4" path="res://scripts/playerhand.gd" id="3_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://b5k1vp1lojjv8" path="res://scenes/CardSlot.tscn" id="3_sugp2"]
 
 [node name="Main" type="Node2D" unique_id=1695053062]
 
 [node name="CardManager" type="Node2D" parent="." unique_id=1079592080]
 script = ExtResource("1_0wfyh")
 
-[node name="TCard" parent="CardManager" unique_id=755009613 instance=ExtResource("1_o5qli")]
-position = Vector2(167, 259)
+[node name="TCard" parent="CardManager" unique_id=755009613 instance=ExtResource("2_jyhfs")]
+position = Vector2(170, 807)
 
-[node name="TCard2" parent="CardManager" unique_id=1213599531 instance=ExtResource("1_o5qli")]
-position = Vector2(513, 259)
+[node name="CardSlot" parent="." unique_id=462384331 instance=ExtResource("3_sugp2")]
+position = Vector2(172, 271)
+
+[node name="PlayerHand" type="Node2D" parent="." unique_id=913860180]
+script = ExtResource("3_jyhfs")

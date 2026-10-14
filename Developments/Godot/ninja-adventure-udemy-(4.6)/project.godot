@@ -1,0 +1,15 @@
+config_version=5
+
+[application]
+
+config/name="NinjaAdventureUdemy (4.6)"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="uid://bpft1y6y54587"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
