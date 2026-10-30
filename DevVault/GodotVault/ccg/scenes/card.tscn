@@ -1,0 +1,168 @@
+[gd_scene format=3 uid="uid://c0bjd32qkwc4s"]
+
+[ext_resource type="Texture2D" uid="uid://by7bc8sdui1qj" path="res://assets/cards/card.png" id="1_ktuci"]
+[ext_resource type="Texture2D" uid="uid://txjme0yulrsf" path="res://assets/cards/icon.png" id="2_kg30u"]
+[ext_resource type="FontFile" uid="uid://bywb6naqq8siu" path="res://assets/fonts/Early GameBoy.ttf" id="3_ktuci"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_we8pq"]
+font = ExtResource("3_ktuci")
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_1yd6c"]
+font = ExtResource("3_ktuci")
+
+[sub_resource type="LabelSettings" id="LabelSettings_kg30u"]
+font = ExtResource("3_ktuci")
+
+[sub_resource type="LabelSettings" id="LabelSettings_ktuci"]
+font = ExtResource("3_ktuci")
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_g7b7a"]
+font = ExtResource("3_ktuci")
+font_size = 20
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_nvopj"]
+font = ExtResource("3_ktuci")
+
+[sub_resource type="LabelSettings" id="LabelSettings_8w5pg"]
+font = ExtResource("3_ktuci")
+
+[sub_resource type="LabelSettings" id="LabelSettings_6ligt"]
+font = ExtResource("3_ktuci")
+font_size = 14
+
+[sub_resource type="LabelSettings" id="LabelSettings_sy11y"]
+font = ExtResource("3_ktuci")
+font_size = 14
+
+[node name="Card" type="Control" unique_id=1584736454]
+custom_maximum_size = Vector2(350, 500)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1570.0
+offset_bottom = -580.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BaseCard" type="TextureRect" parent="." unique_id=1666933979]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_ktuci")
+
+[node name="IconCard" type="TextureRect" parent="." unique_id=877272572]
+custom_maximum_size = Vector2(335, 500)
+layout_mode = 0
+offset_left = 9.0
+offset_top = 91.0
+offset_right = 189.0
+offset_bottom = 271.0
+texture = ExtResource("2_kg30u")
+
+[node name="Display" type="Control" parent="." unique_id=511113064]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="NameLbl" type="Label" parent="Display" unique_id=1029383016]
+layout_mode = 0
+offset_left = 15.0
+offset_top = 13.0
+offset_right = 322.0
+offset_bottom = 49.0
+text = "Card Name"
+label_settings = SubResource("LabelSettings_we8pq")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TypeLbl" type="Label" parent="Display" unique_id=777721270]
+layout_mode = 0
+offset_left = 15.0
+offset_top = 62.0
+offset_right = 142.0
+offset_bottom = 85.0
+text = "Card Types"
+label_settings = SubResource("LabelSettings_1yd6c")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="STLbl" type="Label" parent="Display" unique_id=282688048]
+layout_mode = 0
+offset_left = 218.0
+offset_top = 70.0
+offset_right = 268.0
+offset_bottom = 120.0
+text = "00"
+label_settings = SubResource("LabelSettings_kg30u")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ENLbl" type="Label" parent="Display" unique_id=1221317560]
+layout_mode = 0
+offset_left = 218.0
+offset_top = 148.0
+offset_right = 268.0
+offset_bottom = 198.0
+text = "00"
+label_settings = SubResource("LabelSettings_ktuci")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="QLbl" type="Label" parent="Display" unique_id=2044937237]
+layout_mode = 0
+offset_left = 266.0
+offset_top = 108.0
+offset_right = 316.0
+offset_bottom = 158.0
+text = "00"
+label_settings = SubResource("LabelSettings_g7b7a")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ATKLbl" type="Label" parent="Display" unique_id=1604229039]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 304.0
+offset_right = 102.0
+offset_bottom = 327.0
+text = "000"
+label_settings = SubResource("LabelSettings_nvopj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DEFLbl" type="Label" parent="Display" unique_id=1943842081]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 305.0
+offset_right = 210.0
+offset_bottom = 328.0
+text = "000"
+label_settings = SubResource("LabelSettings_8w5pg")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="IDLbl" type="Label" parent="Display" unique_id=446195328]
+layout_mode = 0
+offset_left = 232.0
+offset_top = 303.0
+offset_right = 320.0
+offset_bottom = 326.0
+text = "GS-000"
+label_settings = SubResource("LabelSettings_6ligt")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DescLbl" type="Label" parent="Display" unique_id=1180435709]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 339.0
+offset_right = 321.0
+offset_bottom = 487.0
+text = "Card Description"
+label_settings = SubResource("LabelSettings_sy11y")
+horizontal_alignment = 1
+autowrap_mode = 1

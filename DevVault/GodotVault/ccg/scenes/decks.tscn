@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://djer6rm7wydsq"]
+
+[ext_resource type="Texture2D" uid="uid://b6jtnwn68knwj" path="res://assets/cards/deck.png" id="1_hcl2w"]
+
+[node name="Decks" type="Control" unique_id=1066516688]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BaseDeck" type="TextureRect" parent="." unique_id=1519177525]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_hcl2w")

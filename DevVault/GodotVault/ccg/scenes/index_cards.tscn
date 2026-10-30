@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://c2jbw1rlw4q3n"]
+
+[ext_resource type="PackedScene" uid="uid://c0bjd32qkwc4s" path="res://scenes/card.tscn" id="1_h06ju"]
+
+[node name="IndexCards" type="Control" unique_id=1744932982]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=1038408155]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+tile_scroll_hint = true
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer" unique_id=368951005]
+layout_mode = 2
+columns = 5
+
+[node name="weapon" type="Control" parent="ScrollContainer/GridContainer" unique_id=579598578]
+layout_mode = 2
+
+[node name="Card" parent="ScrollContainer/GridContainer/weapon" unique_id=1584736454 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card2" parent="ScrollContainer/GridContainer/weapon" unique_id=1050321599 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card3" parent="ScrollContainer/GridContainer/weapon" unique_id=315759823 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card4" parent="ScrollContainer/GridContainer/weapon" unique_id=170174543 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card5" parent="ScrollContainer/GridContainer/weapon" unique_id=1140170399 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="magic" type="Control" parent="ScrollContainer/GridContainer" unique_id=713106412]
+layout_mode = 2
+
+[node name="Card" parent="ScrollContainer/GridContainer/magic" unique_id=579251585 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card2" parent="ScrollContainer/GridContainer/magic" unique_id=693906639 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card3" parent="ScrollContainer/GridContainer/magic" unique_id=446328808 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card4" parent="ScrollContainer/GridContainer/magic" unique_id=904781400 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card5" parent="ScrollContainer/GridContainer/magic" unique_id=620409252 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="items" type="Control" parent="ScrollContainer/GridContainer" unique_id=2131877846]
+layout_mode = 2
+
+[node name="Card" parent="ScrollContainer/GridContainer/items" unique_id=13215502 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card2" parent="ScrollContainer/GridContainer/items" unique_id=731009434 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card3" parent="ScrollContainer/GridContainer/items" unique_id=1446977589 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card4" parent="ScrollContainer/GridContainer/items" unique_id=400150884 instance=ExtResource("1_h06ju")]
+layout_mode = 1
+
+[node name="Card5" parent="ScrollContainer/GridContainer/items" unique_id=1895641025 instance=ExtResource("1_h06ju")]
+layout_mode = 1

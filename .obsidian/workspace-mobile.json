@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "52a5e1d7e4212fdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "80ff19ebe82f78f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a601ec0ff2c2ca2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LoresLines/HaiKon/Hai Kon.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Hai Kon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "406fc63fe2896548",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a743d0d84c7fb22b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "d5a9f13fa2c222f0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:Pós-Apocalíptico",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "6e1534206c370738",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "0018085e82a701e0",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "a2b271f84905f20b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "5bfed113b8758972",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a50bd04333095e52",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "DailyVault/2026-09-01.md",
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "995340f85bef9f2c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "57ddb8c3d0a7f519",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "LoresLines/HaiKon/Hai Kon.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "a1a84381ef5d24ef",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "1a601ec0ff2c2ca2",
+  "lastOpenFiles": [
+    "LoresLines/HaiKon/Book_Aeraf.md",
+    "LoresLines/HaiKon/Oryndal_book.md",
+    "LoresLines/HaiKon/Hai Kon.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/TSG/TSG.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/noted.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/KnoW/Kaigi/Session1.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/✍️┇Kaku/KnoW/KnoW.md",
+    "LoreLines/CyberVibe/Dhumaris.md",
+    "LoreLines/CyberVibe/prologue.md",
+    "LoreLines/uchūVault/session_05.md",
+    "LoreLines/CyberVibe/The Hero.md",
+    "LoreLines/uchūVault/session_01.md",
+    "GaiaVault/GM/Cortex_World.md",
+    "LoreLines/uchūVault/CD/CardData.md",
+    "GaiaVault/TempFH.md",
+    "GaiaVault/dashboard.md",
+    "GaiaVault/Players/player_01.md",
+    "GaiaVault/TempFP.md",
+    "LoreLines/uchūVault/CD/Untitled 1.md",
+    "LoreLines/uchūVault/CD/Untitled.md",
+    "LoreLines/🌱┇ Shizuka/🌑┇Yami/📜┇Masusato Archives/KnoW ━ Ascensão (Era Wakuu)/index.md",
+    "LoreLines/uchūVault/session_02.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🔨┇Tsukuru/CD_Writing/Chars.md",
+    "LoreLines/🌱┇ Shizuka/🏰┇Tenrai/🔨┇Tsukuru/CD_Writing/Cards.md",
+    "LoreLines/AU lines/Untitled/Untitled.md",
+    "LoreLines/CyberVibe/A decadência.md",
+    "Obsidian.base",
+    "LoreLines/uchūVault/CD",
+    "Developments/Godot/lean-gd/icon.svg",
+    "Developments/Godot/cc-gtest/icon.svg",
+    "Developments/Godot/lean-gd/scenes/Entidades/entidades.gd.uid",
+    "Developments/Godot/lean-gd/scenes/Entidades/entidades.gd",
+    "Developments/Godot/lean-gd/scenes/Entidades/Entidades.tscn",
+    "Developments/Godot/lean-gd/scenes/Entidades/player.gd",
+    "Developments/Godot/lean-gd/scenes/Entidades/player.gd.uid",
+    "Developments/Godot/lean-gd/scenes/Entidades",
+    "Developments/Godot/lean-gd/scenes/Composicao/ComponenteAtk.gd.uid",
+    "Developments/Godot/lean-gd/scenes/Composicao/ComponenteAtk.gd",
+    "LoreLines/🌱┇ Shizuka/Assets/Icons/harpoon-trident.png",
+    "LoreLines/🌱┇ Shizuka/Assets/Icons/hearts.png"
+  ]
+}

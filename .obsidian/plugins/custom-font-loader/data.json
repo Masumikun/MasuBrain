@@ -1,0 +1,11 @@
+{
+  "font_folder": "Assets/",
+  "interface_font": [
+    "Assets/FiraCode-Medium.ttf"
+  ],
+  "text_font": [],
+  "monospace_font": [],
+  "extra_fonts": [],
+  "emoji_support": true,
+  "force_mode": true
+}

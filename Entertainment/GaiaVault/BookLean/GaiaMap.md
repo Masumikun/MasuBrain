@@ -1,0 +1,61 @@
+---
+title: MapaView
+date created: Fri, Oct 16th 2026, 7:50:41 pm
+date modified: Fri, Oct 16th 2026, 8:11:55 pm
+---
+
+# MapaView
+## GM
+### Criatura
+[[homu_01]]
+[[homu_02]]
+[[homu_03]]
+[[homu_04]]
+[[homu_05]]
+[[homu_06]]
+[[homu_07]]
+[[homu_08]]
+[[homu_09]]
+[[homu_10]]
+[[homu_11]]
+[[homu_12]]
+[[homu_13]]
+[[homu_14]]
+[[homu_15]]
+[[homu_16]]
+[[homu_17]]
+[[homu_18]]
+[[homu_19]]
+[[homu_20]]
+[[homu_21]]
+[[homu_22]]
+[[homu_23]]
+[[homu_24]]
+[[homu_25]]
+[[homu_26]]
+[[homu_27]]
+[[homu_28]]
+[[homu_29]]
+[[homu_30]]
+[[homu_31]]
+[[homu_32]]
+[[homu_33]]
+[[homu_34]]
+[[homu_35]]
+[[homu_36]]
+[[homu_37]]
+[[homu_38]]
+[[homu_39]]
+[[homu_40]]
+
+## Player
+[[Player_01]]
+[[Player_02]]
+[[Player_03]]
+[[Player_04]]
+[[Player_05]]
+[[Player_06]]
+[[Player_07]]
+[[Player_08]]
+[[Player_09]]
+[[Player_10]]

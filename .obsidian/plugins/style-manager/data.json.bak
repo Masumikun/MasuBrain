@@ -1,0 +1,34 @@
+{
+  "__style_manager_appearance": "system",
+  "__shared_version": 1793308441531,
+  "__style_manager_theme": "Retroma",
+  "__style_manager_accent_color": "#140085",
+  "retroma-obsidian-theme@@rtm-ss-markdown-editor-header-simple": true,
+  "retroma-obsidian-theme@@rtm-ss-markdown-editor-container-simple": true,
+  "retroma-obsidian-theme@@workspace-color-scheme": "rtm-cs-monochromatic-colors",
+  "retroma-obsidian-theme@@rtm-ss-acb-colored-txt": true,
+  "retroma-obsidian-theme@@interactive-accent@@dark": "#000871",
+  "retroma-obsidian-theme@@rtm-txt-accent@@dark": "#FFFFFF",
+  "retroma-obsidian-theme@@rtm-txt-accent-mute@@dark": "#A8A8A8",
+  "retroma-obsidian-theme@@rtm-txt-accent-faint@@dark": "#747474",
+  "__devices": {
+    "0bd8ad53-9d21-4c71-a060-ddd06f7ae018": {
+      "name": "0bd8ad53-9d21-4c71-a060-ddd06f7ae018",
+      "isIsolateMode": false,
+      "isolateSettings": {
+        "__style_manager_appearance": "dark",
+        "__style_manager_theme": "Retroma",
+        "__style_manager_accent_color": "#140085",
+        "retroma-obsidian-theme@@rtm-ss-markdown-editor-header-simple": true,
+        "retroma-obsidian-theme@@rtm-ss-markdown-editor-container-simple": true,
+        "retroma-obsidian-theme@@workspace-color-scheme": "rtm-cs-monochromatic-colors",
+        "retroma-obsidian-theme@@rtm-ss-acb-colored-txt": true,
+        "retroma-obsidian-theme@@interactive-accent@@dark": "#000871",
+        "retroma-obsidian-theme@@rtm-txt-accent@@dark": "#FFFFFF",
+        "retroma-obsidian-theme@@rtm-txt-accent-mute@@dark": "#A8A8A8",
+        "retroma-obsidian-theme@@rtm-txt-accent-faint@@dark": "#747474",
+        "__style_manager_snippets": []
+      }
+    }
+  }
+}
