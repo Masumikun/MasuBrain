@@ -1,0 +1,12 @@
+.callout[data-callout="carta"] {
+	--callout-color: 140, 130, 110;
+	--callout-icon: lucide-scroll;
+	font-family: var(--font-monospace);
+}
+
+.hai-kon,
+.troia {
+	color: var(--color-red);
+	font-variant: small-caps;
+	letter-spacing: .04em;
+}

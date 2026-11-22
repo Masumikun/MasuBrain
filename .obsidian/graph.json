@@ -3,10 +3,95 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"DailyVault/private diary\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:\"DailyVault/dream diary\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16747520
+      }
+    },
+    {
+      "query": "path:DailyVault  ",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
+      }
+    },
+    {
+      "query": "path:DevVault  ",
+      "color": {
+        "a": 1,
+        "rgb": 13434624
+      }
+    },
+    {
+      "query": "path:Entertainment  ",
+      "color": {
+        "a": 1,
+        "rgb": 4456212
+      }
+    },
+    {
+      "query": "path:IndexBox  ",
+      "color": {
+        "a": 1,
+        "rgb": 65412
+      }
+    },
+    {
+      "query": "path:LoresLines/HaiKon  ",
+      "color": {
+        "a": 1,
+        "rgb": 65535
+      }
+    },
+    {
+      "query": "path:\"LoresLines/AU lines/FanFic\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 42751
+      }
+    },
+    {
+      "query": "path:\"LoresLines/AU lines/uchūVault\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 255
+      }
+    },
+    {
+      "query": "path:\"LoresLines/AU lines/PPAU\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7274751
+      }
+    },
+    {
+      "query": "path:\"LoresLines/AU lines/Untitled\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13369599
+      }
+    },
+    {
+      "query": "path:Studying  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +102,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.4249491321419283,
+  "scale": 0.9692986280087107,
   "close": false
 }

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://fir7cbtdja1k"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_14nf6"]
+
+[resource]
+script = ExtResource("1_14nf6")
+card_name = "Maça"
+card_type = 1
+card_id = "GS-002"
+card_desc = "Quando invocado gasta 🔴2 e causa 🗡️2, num teste de dif. 8, caso tenha sucesso causará atodoamento"
+cost_stamina = 2
+dmg_types = 1
+damage_fixo = 2
+dif = 8
+conditions = 2
+turn_qty = 1
+turn_face = 6
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

@@ -7,9 +7,9 @@
   "obsidian-linter",
   "obsidian-kanban",
   "highlightr-plugin",
-  "obsidian-excalidraw-plugin",
   "dataview",
   "colored-text",
   "calendar",
-  "custom-font-loader"
+  "custom-font-loader",
+  "advanced-canvas"
 ]

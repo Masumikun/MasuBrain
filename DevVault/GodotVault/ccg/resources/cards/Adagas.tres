@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bga37wk7lb15e"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_lnsje"]
+
+[resource]
+script = ExtResource("1_lnsje")
+card_name = "Adaga"
+card_type = 1
+card_id = "GS-001"
+card_desc = "Quando invocado gasta 🔴2 e causa 🗡️2, num teste de dif. 8, caso tenha sucesso causará sangramento"
+cost_stamina = 2
+dmg_types = 1
+damage_fixo = 2
+upg_atributoi = 2
+dif = 8
+conditions = 1
+status_qty = 1
+status_face = 8
+turn_qty = 1
+turn_face = 6
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

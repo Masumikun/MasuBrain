@@ -1,0 +1,283 @@
+[gd_scene format=3 uid="uid://d2lkm46jugvaf"]
+
+[ext_resource type="Script" uid="uid://byajplwmi8gni" path="res://scripts/card.gd" id="1_yg3go"]
+[ext_resource type="Texture2D" uid="uid://c5qgfno8nj7s7" path="res://assets/cards/model/CardBackground.svg" id="1_yuujv"]
+[ext_resource type="Texture2D" uid="uid://mqavri6n31qj" path="res://assets/cards/model/CardName.svg" id="2_dcjtu"]
+[ext_resource type="Texture2D" uid="uid://d3upkjpfmnlmq" path="res://assets/cards/model/CardID.svg" id="3_053v2"]
+[ext_resource type="Texture2D" uid="uid://b0e463mwbpy2" path="res://assets/cards/model/CardType.svg" id="4_yuxax"]
+[ext_resource type="Texture2D" uid="uid://ba6p5xkaor6jm" path="res://assets/cards/model/CardIcon.svg" id="5_7tdtf"]
+[ext_resource type="Texture2D" uid="uid://b47lmvkmhmj4i" path="res://assets/cards/model/CardStamina.svg" id="6_ctr2j"]
+[ext_resource type="Texture2D" uid="uid://cprvsfarqfu6d" path="res://assets/cards/model/CardEnergy.svg" id="7_yg3go"]
+[ext_resource type="Texture2D" uid="uid://cfs6bk6l2omv6" path="res://assets/cards/model/CarcSupply.svg" id="8_n8drf"]
+[ext_resource type="Texture2D" uid="uid://dfrmwikrkbrfp" path="res://assets/cards/model/CardATK.svg" id="9_61dui"]
+[ext_resource type="Texture2D" uid="uid://dnex2evx15oej" path="res://assets/cards/model/CardDEF.svg" id="10_joehy"]
+[ext_resource type="Texture2D" uid="uid://dg3n6iu5cmnsh" path="res://assets/cards/model/CardDice.svg" id="11_hoydg"]
+[ext_resource type="Texture2D" uid="uid://dq3lajyiy5btc" path="res://assets/cards/model/CardDesc.svg" id="12_hsdqy"]
+[ext_resource type="FontFile" uid="uid://bywb6naqq8siu" path="res://assets/fonts/Early GameBoy.ttf" id="13_ctr2j"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_11s3o"]
+font = ExtResource("13_ctr2j")
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_g7b7a"]
+font = ExtResource("13_ctr2j")
+
+[sub_resource type="LabelSettings" id="LabelSettings_gyc6d"]
+font = ExtResource("13_ctr2j")
+
+[sub_resource type="LabelSettings" id="LabelSettings_6qx4q"]
+font = ExtResource("13_ctr2j")
+
+[sub_resource type="LabelSettings" id="LabelSettings_hqkgv"]
+font = ExtResource("13_ctr2j")
+
+[sub_resource type="LabelSettings" id="LabelSettings_xrv66"]
+font = ExtResource("13_ctr2j")
+
+[sub_resource type="LabelSettings" id="LabelSettings_wao0y"]
+font = ExtResource("13_ctr2j")
+
+[sub_resource type="LabelSettings" id="LabelSettings_bpo87"]
+font = ExtResource("13_ctr2j")
+
+[sub_resource type="LabelSettings" id="LabelSettings_jm7pk"]
+font = ExtResource("13_ctr2j")
+
+[node name="Card" type="Control" unique_id=40719289]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_yg3go")
+metadata/_edit_vertical_guides_ = [524.0]
+metadata/_edit_horizontal_guides_ = [-345.0]
+
+[node name="BGColor" type="ColorRect" parent="." unique_id=244190381]
+layout_mode = 0
+offset_right = 350.0
+offset_bottom = 500.0
+color = Color(0.39215687, 0.39215687, 0.39215687, 1)
+
+[node name="Modelo" type="Control" parent="." unique_id=1743060196]
+anchors_preset = 0
+offset_right = 350.0
+offset_bottom = 500.0
+
+[node name="BackgroundCardSprite" type="NinePatchRect" parent="Modelo" unique_id=991829213]
+clip_contents = true
+layout_mode = 0
+offset_right = 350.0
+offset_bottom = 500.0
+texture = ExtResource("1_yuujv")
+
+[node name="CardNameSprite" type="TextureRect" parent="Modelo" unique_id=934071291]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 12.0
+offset_right = 342.0
+offset_bottom = 55.0
+texture = ExtResource("2_dcjtu")
+
+[node name="CardTypeSprite" type="TextureRect" parent="Modelo" unique_id=500630134]
+clip_contents = true
+layout_mode = 0
+offset_left = 10.0
+offset_top = 52.0
+offset_right = 190.0
+offset_bottom = 92.0
+texture = ExtResource("3_053v2")
+
+[node name="CardIDSprite" type="TextureRect" parent="Modelo" unique_id=1710843857]
+layout_mode = 0
+offset_left = 231.0
+offset_top = 52.0
+offset_right = 340.0
+offset_bottom = 92.0
+texture = ExtResource("4_yuxax")
+
+[node name="CardIconSprite" type="TextureRect" parent="Modelo" unique_id=1715656662]
+clip_contents = true
+layout_mode = 0
+offset_left = 11.0
+offset_top = 91.0
+offset_right = 211.0
+offset_bottom = 291.0
+texture = ExtResource("5_7tdtf")
+expand_mode = 1
+
+[node name="StaminaSprite" type="TextureRect" parent="Modelo" unique_id=776648354]
+layout_mode = 0
+offset_left = 269.0
+offset_top = 91.0
+offset_right = 337.0
+offset_bottom = 159.0
+texture = ExtResource("6_ctr2j")
+
+[node name="EnergySprite" type="TextureRect" parent="Modelo" unique_id=901668244]
+layout_mode = 0
+offset_left = 269.0
+offset_top = 157.0
+offset_right = 337.0
+offset_bottom = 225.0
+texture = ExtResource("7_yg3go")
+
+[node name="SupplySprite" type="TextureRect" parent="Modelo" unique_id=825256993]
+layout_mode = 0
+offset_left = 269.0
+offset_top = 223.0
+offset_right = 337.0
+offset_bottom = 291.0
+texture = ExtResource("8_n8drf")
+
+[node name="ATKSprite" type="TextureRect" parent="Modelo" unique_id=36073275]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 295.0
+offset_right = 121.0
+offset_bottom = 335.0
+texture = ExtResource("9_61dui")
+
+[node name="DEFSprite" type="TextureRect" parent="Modelo" unique_id=1029060573]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 295.0
+offset_right = 231.0
+offset_bottom = 335.0
+texture = ExtResource("10_joehy")
+
+[node name="DiceSprite" type="TextureRect" parent="Modelo" unique_id=1503793421]
+layout_mode = 0
+offset_left = 231.0
+offset_top = 295.0
+offset_right = 340.0
+offset_bottom = 335.0
+texture = ExtResource("11_hoydg")
+
+[node name="DescSprite" type="TextureRect" parent="Modelo" unique_id=959518415]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 333.0
+offset_right = 343.0
+offset_bottom = 488.0
+texture = ExtResource("12_hsdqy")
+
+[node name="Display" type="Control" parent="." unique_id=2043429679]
+anchors_preset = 0
+offset_right = 350.0
+offset_bottom = 500.0
+
+[node name="NameLbl" type="Label" parent="Display" unique_id=860908000]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 17.0
+offset_right = 338.0
+offset_bottom = 50.0
+text = "Test Text"
+label_settings = SubResource("LabelSettings_11s3o")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TypeLbl" type="Label" parent="Display" unique_id=579634848]
+clip_contents = true
+layout_mode = 0
+offset_left = 13.0
+offset_top = 55.0
+offset_right = 188.0
+offset_bottom = 89.0
+text = "unknown"
+label_settings = SubResource("LabelSettings_g7b7a")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="IDLbl" type="Label" parent="Display" unique_id=84080941]
+layout_mode = 0
+offset_left = 233.0
+offset_top = 54.0
+offset_right = 339.0
+offset_bottom = 90.0
+text = "GS-000"
+label_settings = SubResource("LabelSettings_gyc6d")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CostStamina" type="Label" parent="Display" unique_id=457675043]
+layout_mode = 0
+offset_left = 272.0
+offset_top = 92.0
+offset_right = 336.0
+offset_bottom = 157.0
+text = "00"
+label_settings = SubResource("LabelSettings_6qx4q")
+horizontal_alignment = 1
+vertical_alignment = 1
+justification_flags = 161
+
+[node name="CostEnergy" type="Label" parent="Display" unique_id=421075329]
+layout_mode = 0
+offset_left = 272.0
+offset_top = 158.0
+offset_right = 336.0
+offset_bottom = 223.0
+text = "00"
+label_settings = SubResource("LabelSettings_hqkgv")
+horizontal_alignment = 1
+vertical_alignment = 1
+justification_flags = 161
+
+[node name="CostSupply" type="Label" parent="Display" unique_id=215106674]
+layout_mode = 0
+offset_left = 272.0
+offset_top = 225.0
+offset_right = 336.0
+offset_bottom = 290.0
+text = "00"
+label_settings = SubResource("LabelSettings_xrv66")
+horizontal_alignment = 1
+vertical_alignment = 1
+justification_flags = 161
+
+[node name="ATKLbl" type="Label" parent="Display" unique_id=1398420392]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 296.0
+offset_right = 119.0
+offset_bottom = 334.0
+text = "000"
+label_settings = SubResource("LabelSettings_wao0y")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DEFLbl" type="Label" parent="Display" unique_id=1249590122]
+layout_mode = 0
+offset_left = 123.0
+offset_top = 296.0
+offset_right = 230.0
+offset_bottom = 333.0
+text = "000"
+label_settings = SubResource("LabelSettings_bpo87")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SlotLbl" type="Label" parent="Display" unique_id=1600279484]
+layout_mode = 0
+offset_left = 233.0
+offset_top = 297.0
+offset_right = 338.0
+offset_bottom = 333.0
+text = "000"
+label_settings = SubResource("LabelSettings_jm7pk")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DescLbl" type="RichTextLabel" parent="Display" unique_id=1105310061]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 341.0
+offset_right = 339.0
+offset_bottom = 483.0
+theme_override_fonts/normal_font = ExtResource("13_ctr2j")
+theme_override_fonts/bold_font = ExtResource("13_ctr2j")
+theme_override_fonts/bold_italics_font = ExtResource("13_ctr2j")
+theme_override_fonts/italics_font = ExtResource("13_ctr2j")
+theme_override_fonts/mono_font = ExtResource("13_ctr2j")
+text = "Test Text"
+horizontal_alignment = 1
+justification_flags = 171

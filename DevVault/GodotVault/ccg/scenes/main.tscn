@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://chuhgw1nrfeh4"]
+
+[ext_resource type="PackedScene" uid="uid://d2lkm46jugvaf" path="res://scenes/model/card.tscn" id="1_0wfyh"]
+
+[node name="Main" type="Control" unique_id=2048381889]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Card" parent="." unique_id=40719289 instance=ExtResource("1_0wfyh")]
+layout_mode = 0

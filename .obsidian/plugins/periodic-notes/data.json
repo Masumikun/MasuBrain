@@ -4,14 +4,14 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "Timezone.md ",
-    "folder": "DailyVault",
+    "template": "Timezone.md",
+    "folder": "DailyVault/note-book",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "Timezone.md",
-    "folder": "DailyVault",
+    "folder": "DailyVault/note-book",
     "enabled": true
   },
   "monthly": {

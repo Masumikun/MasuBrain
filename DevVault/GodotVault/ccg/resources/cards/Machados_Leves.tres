@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dnk5e8p113rgn"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_v6l3g"]
+
+[resource]
+script = ExtResource("1_v6l3g")
+card_name = "Machado Leve"
+card_type = 1
+card_id = "GS-003"
+card_desc = "Quando invocado gasta 🔴2 e causa 🗡3, num teste de dif. 8, caso tenha sucesso causará sangramento"
+cost_stamina = 2
+dmg_types = 1
+damage_fixo = 3
+upg_atributoi = 1
+dif = 8
+conditions = 1
+status_qty = 1
+status_face = 8
+turn_qty = 1
+turn_face = 6
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"
