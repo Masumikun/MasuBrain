@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5b8358408048709b",
+        "id": "58c72aede06ace01",
         "type": "tabs",
         "children": [
           {
-            "id": "512600362cf83d1f",
+            "id": "c851ee131e927985",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LoresLines/HaiKon/Hai Kon.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Hai Kon"
             }
           }
         ]
@@ -180,37 +184,40 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "512600362cf83d1f",
+  "active": "c851ee131e927985",
   "lastOpenFiles": [
-    "LoresLines/HaiKon/Book_Aeraf.md",
-    "DailyVault/note-book/2026-11-21.md",
-    "Untitled.md",
-    "LoresLines/HaiKon/Hai Kon.md",
-    "LoresLines/五行.md",
-    "Studying/Gigiblia.md",
-    "DevVault/GitVault/filoMasu.md",
-    "IndexBox/CCG — GDD.md",
-    "IndexBox/morte_fria.md",
-    "IndexBox/Platão.md",
-    "IndexBox/Untitled.md",
-    "DailyVault/note-book/2026-11-14.md",
-    "DailyVault/Untitled.md",
-    "DailyVault/AgendaDay.md",
-    "Obsidian.base",
-    "IndexBox/DeepSeek/day1_chat.md",
-    "DailyVault/private diary/Aprendizagem.md",
-    "LoresLines/HaiKon/old version/oldv_haikon.md",
-    "LoresLines/HaiKon/O_despertar_troia.md",
-    "Timezone.md",
-    "README.md",
-    "DevVault/DCVault/dc_bio/README.md",
-    "DevVault/DevVault.md",
     "DevVault/IndexGodot.md",
+    "DailyVault/note-book/2026-11-25.md",
+    "LoresLines/HaiKon/Hai Kon.md",
+    "DevVault/GitVault/sobre-mim.md",
+    "IndexBox/Untitled.md",
+    "DailyVault/AgendaDay.md",
+    "DailyVault/Untitled.md",
+    "LoresLines/HaiKon/O_despertar_troia.md",
+    "LoresLines/五行.md",
+    "Obsidian.base",
+    "DailyVault/note-book/Untitled.md",
+    "DailyVault/note-book/2026-11-23.md",
+    "DailyVault/note-book/2026-11-22.md",
+    "DailyVault/note-book/2026-09-01.md",
+    "DevVault/DevVault.md",
+    "DailyVault/private diary/Reflexão.md",
+    "DailyVault/private diary/Aprendizagem.md",
+    "Entertainment/Background.svg",
+    "DevVault/GitVault/filoMasu.md",
+    "README.md",
+    "Timezone.md",
+    "DailyVault/dream diary/Day1.md",
+    "DailyVault/note-book/2026-09-07.md",
+    "DailyVault/note-book/2026-09-11.md",
+    "DailyVault/note-book/2026-10-09.md",
+    "DailyVault/note-book/2026-10-15.md",
+    "DailyVault/note-book/2026-10-16.md",
+    "DailyVault/note-book/2026-10-30.md",
+    "DevVault/GodotVault/ccg/resources/cards/magics/Ember.tres",
+    "DevVault/GodotVault/ccg/resources/cards/magics/Ember.tres_temp",
     "Entertainment/NameLbl.svg",
     "Entertainment/IDLbl.svg",
-    "LoresLines/AU lines/FanFic/NT!AU.md",
-    "LoresLines/AU lines/FanFic/NeworldTale ep3.md",
-    "LoresLines/AU lines/FanFic/NeworldTale ep2.md",
     "IndexBox/DeepSeek",
     "DevVault/GodotVault/ccg/scripts/ui/card_mini_ui.gd",
     "LoresLines/HaiKon/Hai_Kon.canvas",
@@ -222,8 +229,6 @@
     "Developments/Godot/lean-gd/scenes/Entidades/entidades.gd",
     "Developments/Godot/lean-gd/scenes/Entidades/Entidades.tscn",
     "Developments/Godot/lean-gd/scenes/Entidades/player.gd",
-    "Developments/Godot/lean-gd/scenes/Entidades/player.gd.uid",
-    "Developments/Godot/lean-gd/scenes/Entidades",
     "LoreLines/🌱┇ Shizuka/Assets/Icons/harpoon-trident.png",
     "LoreLines/🌱┇ Shizuka/Assets/Icons/hearts.png"
   ]

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://gdmhbep31diy"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_jf5dx"]
+
+[resource]
+script = ExtResource("1_jf5dx")
+card_name = "Catalisador Místico"
+card_type = 1
+card_id = "GS-015"
+card_desc = "Num teste de dif. 10, caso tenha sucesso causará Inaptidão"
+cost_stamina = 3
+dmg_types = 1
+damage_fixo = 4
+upg_atributoi = 3
+dif = 10
+conditions = 10
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

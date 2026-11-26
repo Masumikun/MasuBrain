@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://2oe3tvquya3v"]
+
+[ext_resource type="Resource" uid="uid://2x8t6vktnm20" path="res://resources/cards/supplys/Municao.tres" id="1_bej04"]
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_dq8o0"]
+
+[resource]
+script = ExtResource("1_dq8o0")
+card_name = "Mosquete"
+card_type = 1
+card_id = "GS-013"
+card_desc = "Vem com conjunto inicial de 6 munições"
+cost_stamina = 2
+slot_type = 3
+ammo_capacity = 6
+linked_supply = ExtResource("1_bej04")
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

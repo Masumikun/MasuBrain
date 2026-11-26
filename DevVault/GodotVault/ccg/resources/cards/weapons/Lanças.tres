@@ -4,7 +4,19 @@
 
 [resource]
 script = ExtResource("1_j27x2")
+card_name = "Lança"
+card_type = 1
+card_id = "GS-005"
+card_desc = "Quando invocado gasta 🔴3 e causa 🗡4, num teste de dif. 8, caso tenha sucesso causará sangramento"
+cost_stamina = 3
 dmg_types = 1
+damage_fixo = 4
 upg_atributoi = 1
 upg_atributoii = 2
+dif = 8
+conditions = 1
+status_qty = 1
+status_face = 8
+turn_qty = 1
+turn_face = 6
 metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

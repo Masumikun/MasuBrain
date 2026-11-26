@@ -3,15 +3,15 @@
 [ext_resource type="Script" uid="uid://byajplwmi8gni" path="res://scripts/card.gd" id="1_yg3go"]
 [ext_resource type="Texture2D" uid="uid://c5qgfno8nj7s7" path="res://assets/cards/model/CardBackground.svg" id="1_yuujv"]
 [ext_resource type="Texture2D" uid="uid://mqavri6n31qj" path="res://assets/cards/model/CardName.svg" id="2_dcjtu"]
-[ext_resource type="Texture2D" uid="uid://d3upkjpfmnlmq" path="res://assets/cards/model/CardID.svg" id="3_053v2"]
-[ext_resource type="Texture2D" uid="uid://b0e463mwbpy2" path="res://assets/cards/model/CardType.svg" id="4_yuxax"]
+[ext_resource type="Texture2D" uid="uid://d3upkjpfmnlmq" path="res://assets/cards/model/CardType.svg" id="3_053v2"]
+[ext_resource type="Texture2D" uid="uid://b0e463mwbpy2" path="res://assets/cards/model/CardID.svg" id="4_yuxax"]
 [ext_resource type="Texture2D" uid="uid://ba6p5xkaor6jm" path="res://assets/cards/model/CardIcon.svg" id="5_7tdtf"]
 [ext_resource type="Texture2D" uid="uid://b47lmvkmhmj4i" path="res://assets/cards/model/CardStamina.svg" id="6_ctr2j"]
 [ext_resource type="Texture2D" uid="uid://cprvsfarqfu6d" path="res://assets/cards/model/CardEnergy.svg" id="7_yg3go"]
 [ext_resource type="Texture2D" uid="uid://cfs6bk6l2omv6" path="res://assets/cards/model/CarcSupply.svg" id="8_n8drf"]
 [ext_resource type="Texture2D" uid="uid://dfrmwikrkbrfp" path="res://assets/cards/model/CardATK.svg" id="9_61dui"]
 [ext_resource type="Texture2D" uid="uid://dnex2evx15oej" path="res://assets/cards/model/CardDEF.svg" id="10_joehy"]
-[ext_resource type="Texture2D" uid="uid://dg3n6iu5cmnsh" path="res://assets/cards/model/CardDice.svg" id="11_hoydg"]
+[ext_resource type="Texture2D" uid="uid://dg3n6iu5cmnsh" path="res://assets/cards/model/CardSlot.svg" id="11_hoydg"]
 [ext_resource type="Texture2D" uid="uid://dq3lajyiy5btc" path="res://assets/cards/model/CardDesc.svg" id="12_hsdqy"]
 [ext_resource type="FontFile" uid="uid://bywb6naqq8siu" path="res://assets/fonts/Early GameBoy.ttf" id="13_ctr2j"]
 
@@ -33,6 +33,7 @@ font = ExtResource("13_ctr2j")
 
 [sub_resource type="LabelSettings" id="LabelSettings_xrv66"]
 font = ExtResource("13_ctr2j")
+font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_wao0y"]
 font = ExtResource("13_ctr2j")
@@ -45,7 +46,11 @@ font = ExtResource("13_ctr2j")
 
 [node name="Card" type="Control" unique_id=40719289]
 layout_mode = 3
-anchors_preset = 0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_yg3go")
 metadata/_edit_vertical_guides_ = [524.0]
 metadata/_edit_horizontal_guides_ = [-345.0]
@@ -103,6 +108,15 @@ offset_bottom = 291.0
 texture = ExtResource("5_7tdtf")
 expand_mode = 1
 
+[node name="BGColorStamina" type="ColorRect" parent="Modelo" unique_id=577603114]
+layout_mode = 0
+offset_left = 303.0
+offset_top = 92.99999
+offset_right = 348.0
+offset_bottom = 138.0
+rotation = 0.7853982
+color = Color(1, 0, 0, 1)
+
 [node name="StaminaSprite" type="TextureRect" parent="Modelo" unique_id=776648354]
 layout_mode = 0
 offset_left = 269.0
@@ -111,6 +125,15 @@ offset_right = 337.0
 offset_bottom = 159.0
 texture = ExtResource("6_ctr2j")
 
+[node name="BGColorEnergy" type="ColorRect" parent="Modelo" unique_id=950323515]
+layout_mode = 0
+offset_left = 303.0
+offset_top = 159.00002
+offset_right = 348.0
+offset_bottom = 204.00002
+rotation = 0.7853982
+color = Color(0, 0, 1, 1)
+
 [node name="EnergySprite" type="TextureRect" parent="Modelo" unique_id=901668244]
 layout_mode = 0
 offset_left = 269.0
@@ -118,6 +141,15 @@ offset_top = 157.0
 offset_right = 337.0
 offset_bottom = 225.0
 texture = ExtResource("7_yg3go")
+
+[node name="BGColorSupply" type="ColorRect" parent="Modelo" unique_id=235449676]
+layout_mode = 0
+offset_left = 303.0
+offset_top = 225.0
+offset_right = 348.0
+offset_bottom = 270.0
+rotation = 0.7853982
+color = Color(0, 1, 0, 1)
 
 [node name="SupplySprite" type="TextureRect" parent="Modelo" unique_id=825256993]
 layout_mode = 0
@@ -143,7 +175,7 @@ offset_right = 231.0
 offset_bottom = 335.0
 texture = ExtResource("10_joehy")
 
-[node name="DiceSprite" type="TextureRect" parent="Modelo" unique_id=1503793421]
+[node name="SlotSprite" type="TextureRect" parent="Modelo" unique_id=1503793421]
 layout_mode = 0
 offset_left = 231.0
 offset_top = 295.0

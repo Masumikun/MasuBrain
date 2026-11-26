@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c6qn4tnc3xlyc"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_u3i3v"]
+
+[resource]
+script = ExtResource("1_u3i3v")
+card_name = "Ember"
+card_type = 2
+card_id = "GS-018"
+card_desc = "Num teste de dif. 8, caso tenha sucesso causará queimadura"
+cost_energy = 2
+dmg_types = 2
+dice_qty = 1
+dice_face = 8
+upg_atributoi = 3
+dif = 8
+conditions = 4
+status_qty = 1
+status_face = 8
+turn_qty = 1
+turn_face = 6
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

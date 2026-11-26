@@ -1,7 +1,7 @@
 ---
 title: Hai Kon
 date created: Thu, Oct 8th 2026, 2:08:53 am
-date modified: Thu, Nov 19th 2026, 2:17:56 pm
+date modified: Wed, Nov 25th 2026, 1:01:41 pm
 aliases:
   - Cicatrizes Cinzentas
 tags:
@@ -60,12 +60,12 @@ Quando terminou da seus detalhes logo sorrindo com rosto, decidiu pega um papiro
 > No vale mais limbo
 > Estarei a olhar*
 
-<center>
+<div align="center">
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
-<center>
+</div>
 
 #### Oryndal - Forja Natural
-Estava um menino que olhei parecia um aventureiro de procurando por uma situação para resolver seu olhar era como está descubrindo sobre um certo cavaleiro que era visto como bom seguimento de caminho no seu pensamento, mas humanos estavam se desenvolvendo um planeta normal com ciclos certos.
+Estava um menino que olhei parecia um aventureiro de procurando por uma situação para resolver seu olhar era como está descobrindo sobre um certo cavaleiro que era visto como bom seguimento de caminho no seu pensamento, mas humanos estavam se desenvolvendo um planeta normal com ciclos certos.
 
 — Oh… que ele faz?
 
@@ -73,7 +73,7 @@ Olhando esse menino ele vivia com povo da nação mais oculta pelos humanos, por
 
 "Como os pés mais ligeiros poderão no escuro.
 Não seremos lembrados, sobre a forja da mãe.
-Estamos como palpiros para revelar os mitos.
+Estamos como papiros para revelar os mitos.
 Não deixaremos lendas morrer em vão.
 Sua informação será lembrada e falada."
 
@@ -84,3 +84,38 @@ Constantemente dizem ser aqueles que vou documentar o escolhidos e seguir rotas 
 Sua voz parece rossoa como tivesse tentando dizer algo para fora está ardendo na garganta dele.
 
 — Eu… hmmm… sofro… ao ver… seres tirano se interromper?…
+
+<div align="center">
+°•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
+</div>
+
+#### Nimas — Sua Existência
+Constantemente estão fazendo comportamento de buscarem informações sobre lendas reais no planeta fiquei pensando por mim
+
+"Se ele vissem os **fufuwas**?"
+"Que fariam? que farão?"
+
+Assistindo eles, são aventureiros bem treinados que vivem constantemente praticando para resolver com <span style="color:rgb(255, 255, 0)">justiça</span> em documentos sobre sobrevivência de lendas
+
+"Lendas, ele chamam assim que acreditam ser termos ouvir dos humanos de *idealização do herói* que humanidade imagina"
+
+— Um… herói… hmm
+
+ficou pensativo enquanto olhando para mesa e decidiu joga um papel o <span style="color:rgb(255, 0, 0)">queimando</span> na lareira de sua mesa ficou olhando para <span style="color:rgb(255, 0, 0)">fogo</span>, logo tive uma ideia
+
+— isso… um herói… e um inimigo… talvez vou deixa… alguém seguir caminho do herói… mas preciso intervir um pouco… então só darei… um livro chamarei de **Aeraf**
+
+ele pegou alguns papéis escrevendo passou em livro para manda depois um tesouro de alguém forma escondida, mas que possa se encontrado como forma que origem a alguma dogma a humanidade.
+
+> [!abstract] Aeraf, a espada
+> As lendas irão representar meu elo de heroismo, nossa origem está em servir a justiça com iluminação para fazer o bem a aliança que trazemos com paz pura em vez de guerra.
+> 
+> Por isso a espada que encontrou na água mística escolhida entre todas água só sua mão de lenda sentirá o peso dela enquanto o resto pega uma pedra no rio ou apenas água
+> 
+> A espada se não foi pega do rio, ela certamente vira da mão de um mago de bom coração seguidor do limbo ou do celeste nesse horizonte até seu último suspiro carregando a arma poderosa para da a mão de paz
+> 
+> Quando estiver na mão da lenda até os procuram para seguir da fim aos conflitos poderão acompanhar seu destino independente do que seja a espada carrega mensagem.
+>
+> > [!cite] Espada
+> > 🜅🜉🜨🜋🜎☋♃
+> > *Sobre guerras está elevação do herói na paz*

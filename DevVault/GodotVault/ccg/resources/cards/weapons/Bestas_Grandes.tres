@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dpyhhj4vrep1q"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_378xb"]
+[ext_resource type="Resource" uid="uid://dcs2rwkhvp74p" path="res://resources/cards/supplys/Virores.tres" id="1_skkc6"]
+
+[resource]
+script = ExtResource("1_378xb")
+card_name = "Besta Grande"
+card_type = 1
+card_id = "GS-012"
+card_desc = "Vem com conjunto inicial de 6 virotes"
+cost_stamina = 2
+slot_type = 2
+ammo_capacity = 6
+linked_supply = ExtResource("1_skkc6")
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

@@ -4,12 +4,13 @@
 
 [resource]
 script = ExtResource("1_124vi")
+card_name = "Martelo de Guerra"
+card_type = 1
+card_id = "GS-006"
+card_desc = "Num teste de dif. 10, caso tenha sucesso causará atordoamento"
+cost_stamina = 3
 dmg_types = 1
+damage_fixo = 4
 upg_atributoi = 1
-dif = 8
-conditions = 1
-status_qty = 1
-status_face = 8
-turn_qty = 1
-turn_face = 6
+conditions = 2
 metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

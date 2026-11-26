@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="DeckData" format=3 uid="uid://bookrfc4onpw6"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_8iimg"]
+[ext_resource type="Script" uid="uid://dl26pn5h8nues" path="res://scripts/data/DeckData.gd" id="2_lwsgx"]
+[ext_resource type="Resource" uid="uid://bga37wk7lb15e" path="res://resources/cards/weapons/Adagas.tres" id="2_wh5bl"]
+[ext_resource type="Resource" uid="uid://3y1jsr3k2en4" path="res://resources/cards/weapons/Arcos.tres" id="3_3yvxx"]
+[ext_resource type="Resource" uid="uid://b6vq1lt3gft6g" path="res://resources/cards/weapons/Armas_de_Punho.tres" id="4_n5bd0"]
+[ext_resource type="Resource" uid="uid://4m6je6u4efp6" path="res://resources/cards/weapons/Berloques_de_Energia.tres" id="5_wn4s0"]
+[ext_resource type="Resource" uid="uid://dpyhhj4vrep1q" path="res://resources/cards/weapons/Bestas_Grandes.tres" id="6_vynxj"]
+[ext_resource type="Resource" uid="uid://bhqwona23itrf" path="res://resources/cards/weapons/Bestas_Pequenas.tres" id="7_gvsq4"]
+[ext_resource type="Resource" uid="uid://gdmhbep31diy" path="res://resources/cards/weapons/Catalisadores_Místicos.tres" id="8_wbrb0"]
+[ext_resource type="Resource" uid="uid://bfbgi02pdadgq" path="res://resources/cards/weapons/Espadas_Curtas.tres" id="9_y4et8"]
+[ext_resource type="Resource" uid="uid://c3ig7umdp321l" path="res://resources/cards/weapons/Espadas_Longas.tres" id="10_ujs44"]
+[ext_resource type="Resource" uid="uid://dt35kt2ckvpo7" path="res://resources/cards/weapons/Lanças.tres" id="11_yln4h"]
+[ext_resource type="Resource" uid="uid://dnk5e8p113rgn" path="res://resources/cards/weapons/Machados_Leves.tres" id="12_2qujr"]
+[ext_resource type="Resource" uid="uid://df83gcuu51vph" path="res://resources/cards/weapons/Machados_Pesados.tres" id="13_by4mp"]
+[ext_resource type="Resource" uid="uid://fir7cbtdja1k" path="res://resources/cards/weapons/Maças.tres" id="14_8b7wm"]
+[ext_resource type="Resource" uid="uid://2oe3tvquya3v" path="res://resources/cards/weapons/Mosquetes.tres" id="15_liaho"]
+[ext_resource type="Resource" uid="uid://djewsrbaxjjbv" path="res://resources/cards/weapons/Revólveres.tres" id="16_xuvuq"]
+[ext_resource type="Resource" uid="uid://c6qn4tnc3xlyc" path="res://resources/cards/magics/Ember.tres" id="17_3o7vn"]
+[ext_resource type="Resource" uid="uid://brgjxkvwfh38b" path="res://resources/cards/supplys/Flechas.tres" id="18_3b6k8"]
+[ext_resource type="Resource" uid="uid://2x8t6vktnm20" path="res://resources/cards/supplys/Municao.tres" id="19_y4et8"]
+[ext_resource type="Resource" uid="uid://dcs2rwkhvp74p" path="res://resources/cards/supplys/Virores.tres" id="20_ujs44"]
+
+[resource]
+script = ExtResource("2_lwsgx")
+deck_name = "PlayerDeck"
+deck_type = 4
+deck_inv = Array[ExtResource("1_8iimg")]([ExtResource("2_wh5bl"), ExtResource("3_3yvxx"), ExtResource("4_n5bd0"), ExtResource("5_wn4s0"), ExtResource("6_vynxj"), ExtResource("7_gvsq4"), ExtResource("8_wbrb0"), ExtResource("9_y4et8"), ExtResource("10_ujs44"), ExtResource("11_yln4h"), ExtResource("12_2qujr"), ExtResource("13_by4mp"), ExtResource("14_8b7wm"), ExtResource("15_liaho"), ExtResource("16_xuvuq"), ExtResource("17_3o7vn"), ExtResource("18_3b6k8"), ExtResource("19_y4et8"), ExtResource("20_ujs44")])
+metadata/_custom_type_script = "uid://dl26pn5h8nues"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://brgjxkvwfh38b"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_uy05o"]
+
+[resource]
+script = ExtResource("1_uy05o")
+card_name = "Flecha"
+card_type = 3
+card_id = "GS-017"
+card_desc = "Num teste de dif. 8, caeo tenha sucesso causará sangramento"
+cost_supply = 6
+dmg_types = 2
+dice_qty = 1
+dice_face = 6
+upg_atributoi = 2
+conditions = 1
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

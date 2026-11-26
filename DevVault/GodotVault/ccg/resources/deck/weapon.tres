@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DeckData" format=3 uid="uid://5pc3h2r5rp58"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_vuniw"]
+[ext_resource type="Script" uid="uid://dl26pn5h8nues" path="res://scripts/data/DeckData.gd" id="2_ejll6"]
+
+[resource]
+script = ExtResource("2_ejll6")
+deck_name = "Weapons"
+deck_type = 1
+metadata/_custom_type_script = "uid://dl26pn5h8nues"

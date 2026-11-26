@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cssbxnin5yfvf"]
 
+[ext_resource type="Script" uid="uid://b645s43rp7wuk" path="res://scripts/ui/deck.gd" id="1_s153g"]
 [ext_resource type="Texture2D" uid="uid://c5qgfno8nj7s7" path="res://assets/cards/model/CardBackground.svg" id="1_sldsa"]
 
 [node name="Deck" type="Control" unique_id=2078842914]
@@ -9,10 +10,12 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_s153g")
 
 [node name="BGColor" type="ColorRect" parent="." unique_id=779917921]
 layout_mode = 0
-offset_right = 350.0
+offset_left = -1.0
+offset_right = 349.0
 offset_bottom = 500.0
 color = Color(0.39215687, 0.39215687, 0.39215687, 1)
 

@@ -2,9 +2,9 @@ extends Resource
 class_name CharData
 
 @export_group("Identity")
-@export var char_name: String
-@export var char_id: String
-@export var char_pv: int
+@export var char_name: String = "Char Name"
+@export var char_id: String = "GSR-000"
+@export var char_pv: int = 30
 
 @export_group("Resources")
 @export_range(0, 100) var pts_stamina: int = 0
@@ -25,3 +25,8 @@ class_name CharData
 @export_range(0, 6) var canalizacao: int = 0
 @export_range(0, 6) var arcanismo: int = 0
 @export_range(0, 6) var espirito: int = 0
+
+@export_group("mechanics")
+@export var char_inv: Array[DeckData]
+@export var char_hand: Array[CardData]
+@export var char_hand_init: int = 6

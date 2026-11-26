@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://3y1jsr3k2en4"]
+
+[ext_resource type="Resource" uid="uid://brgjxkvwfh38b" path="res://resources/cards/supplys/Flechas.tres" id="1_6igig"]
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_aci7s"]
+
+[resource]
+script = ExtResource("1_aci7s")
+card_name = "Arco"
+card_type = 1
+card_id = "GS-011"
+card_desc = "Conjunto inicial de 6 Flechas"
+slot_type = 1
+ammo_capacity = 6
+linked_supply = ExtResource("1_6igig")
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

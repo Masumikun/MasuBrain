@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c3ig7umdp321l"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_mswe4"]
+
+[resource]
+script = ExtResource("1_mswe4")
+card_name = "Espada Longa"
+card_type = 1
+card_id = "GS-008"
+card_desc = "Num teste de dif. 10, caso tenha sucesso causará sangramento"
+cost_stamina = 3
+dmg_types = 1
+damage_fixo = 5
+upg_atributoi = 1
+upg_artibutoii = 2
+dif = 10
+conditions = 1
+status_qty = 1
+status_face = 8
+turn_qty = 1
+turn_face = 6
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

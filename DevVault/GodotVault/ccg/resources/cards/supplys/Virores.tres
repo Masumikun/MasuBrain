@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dcs2rwkhvp74p"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_xekrb"]
+
+[resource]
+script = ExtResource("1_xekrb")
+card_name = "Virote"
+card_type = 3
+card_id = "GS-020"
+card_desc = "Num teste de dif. 8, causará sangramento"
+cost_supply = 6
+dmg_types = 2
+dice_qty = 1
+dice_face = 6
+upg_atributoi = 2
+conditions = 1
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

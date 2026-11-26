@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharData" format=3 uid="uid://b80qdltds5oco"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_28xb1"]
+[ext_resource type="Script" uid="uid://digbwicjupxge" path="res://scripts/data/CharData.gd" id="2_m7d67"]
+[ext_resource type="Resource" uid="uid://bookrfc4onpw6" path="res://resources/deck/deckall.tres" id="20_l1o5s"]
+
+[resource]
+script = ExtResource("2_m7d67")
+char_name = "dummy"
+char_id = "GSR-001"
+char_pv = 36
+pts_stamina = 10
+pts_energy = 10
+pts_supply = 10
+char_inv = ExtResource("20_l1o5s")
+metadata/_custom_type_script = "uid://digbwicjupxge"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179.934px" height="39.934px" version="1.1" viewBox="0.000 0.000 137.749 30.572">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108.534px" height="38.534px" version="1.1" viewBox="0.000 0.000 83.089 29.500">
   <!--
 	Exported with Concepts: Smarter Sketching
 	Version: 2026.10.1 on Android 15
@@ -9,39 +9,39 @@
   <desc>Drawing exported from Concepts: Smarter Sketching</desc>
   <defs></defs>
   <g id="Background_" opacity="1.000" display="none">
-    <path id="STROKE_fcbe1d2b-54c0-4abe-b177-e75a97f83d5b" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M -8.223 -37.164 L 259.720 -37.165 L 259.720 345.610 L -8.223 345.610 Z"></path>
+    <path id="STROKE_fcbe1d2b-54c0-4abe-b177-e75a97f83d5b" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M -177.224 -37.700 L 90.718 -37.700 L 90.718 345.074 L -177.224 345.075 Z"></path>
   </g>
   <g id="Card_Name" opacity="1.000" display="none">
-    <path id="STROKE_12923bb7-a190-4d7b-9400-b716cff4e2f4" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 3.725 -26.819 L 248.701 -26.819 L 248.701 -3.853 L 3.725 -3.853 Z"></path>
+    <path id="STROKE_12923bb7-a190-4d7b-9400-b716cff4e2f4" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M -165.277 -27.355 L 79.699 -27.355 L 79.699 -4.389 L -165.277 -4.389 Z"></path>
   </g>
-  <g id="Card_ID" opacity="1.000">
-    <path id="STROKE_47275af2-b518-425b-a0c8-1611b4e40ab1" opacity="1.000" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 3.803 3.803 L 133.946 3.803 L 133.946 26.769 L 3.803 26.769 Z"></path>
+  <g id="Card_ID" opacity="1.000" display="none">
+    <path id="STROKE_47275af2-b518-425b-a0c8-1611b4e40ab1" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M -165.199 3.267 L -35.055 3.267 L -35.055 26.233 L -165.199 26.233 Z"></path>
   </g>
-  <g id="Card_Type" opacity="1.000" display="none">
-    <path id="STROKE_4ca95e9c-9ea3-419c-ac9c-1557aaf85dbb" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 172.268 3.803 L 248.823 3.803 L 248.823 26.769 L 172.268 26.769 Z"></path>
+  <g id="Card_Type" opacity="1.000">
+    <path id="STROKE_4ca95e9c-9ea3-419c-ac9c-1557aaf85dbb" opacity="1.000" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 3.267 3.267 L 79.822 3.267 L 79.822 26.233 L 3.267 26.233 Z"></path>
   </g>
   <g id="Card_Icon" opacity="1.000" display="none">
-    <path id="STROKE_976b50fe-2e82-484f-a065-759483ce4432" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 3.897 35.310 L 157.007 35.310 L 157.007 188.420 L 3.897 188.420 Z"></path>
+    <path id="STROKE_976b50fe-2e82-484f-a065-759483ce4432" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M -165.104 34.774 L -11.994 34.774 L -11.994 187.884 L -165.104 187.884 Z"></path>
   </g>
   <g id="Card_ATK" opacity="1.000" display="none">
-    <path id="STROKE_fed94423-ddd1-4ed5-9e48-5fdaab5b7182" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 3.584 196.985 L 80.139 196.985 L 80.139 219.952 L 3.584 219.952 Z"></path>
+    <path id="STROKE_fed94423-ddd1-4ed5-9e48-5fdaab5b7182" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M -165.418 196.449 L -88.863 196.449 L -88.863 219.416 L -165.418 219.416 Z"></path>
   </g>
   <g id="Card_DEF" opacity="1.000" display="none">
-    <path id="STROKE_f6baf8d7-036f-4554-9e35-d2f8dc21ee64" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 89.587 196.981 L 166.142 196.981 L 166.142 219.948 L 89.587 219.948 Z"></path>
+    <path id="STROKE_f6baf8d7-036f-4554-9e35-d2f8dc21ee64" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M -79.415 196.445 L -2.860 196.445 L -2.860 219.412 L -79.415 219.412 Z"></path>
   </g>
   <g id="Card_Dice" opacity="1.000" display="none">
-    <path id="STROKE_25c0c013-19f4-4991-a217-c0394c81d209" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 173.990 197.017 L 250.545 197.017 L 250.545 219.984 L 173.990 219.984 Z"></path>
+    <path id="STROKE_25c0c013-19f4-4991-a217-c0394c81d209" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 4.989 196.481 L 81.544 196.481 L 81.544 219.448 L 4.989 219.448 Z"></path>
   </g>
   <g id="Card_Stamina" opacity="1.000" display="none">
-    <path id="STROKE_7b2058bb-e422-4d35-b0dc-b1656802b5a5" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 219.181 35.831 L 242.147 58.798 L 219.181 81.764 L 196.214 58.798 Z"></path>
+    <path id="STROKE_7b2058bb-e422-4d35-b0dc-b1656802b5a5" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 50.179 35.295 L 73.146 58.262 L 50.179 81.228 L 27.213 58.262 Z"></path>
   </g>
   <g id="Card_Energy" opacity="1.000" display="none">
-    <path id="STROKE_79611566-a16f-42af-9e46-70593a09c3c1" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 219.181 89.018 L 242.147 111.984 L 219.181 134.951 L 196.214 111.984 Z"></path>
+    <path id="STROKE_79611566-a16f-42af-9e46-70593a09c3c1" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 50.179 88.482 L 73.146 111.448 L 50.179 134.415 L 27.213 111.448 Z"></path>
   </g>
   <g id="Card_Supply" opacity="1.000" display="none">
-    <path id="STROKE_293c768f-822e-4ef7-858c-0c45f61701ec" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 219.181 142.224 L 242.147 165.190 L 219.181 188.157 L 196.214 165.190 Z"></path>
+    <path id="STROKE_293c768f-822e-4ef7-858c-0c45f61701ec" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 50.179 141.688 L 73.146 164.654 L 50.179 187.621 L 27.213 164.654 Z"></path>
   </g>
   <g id="Card_Desc" opacity="1.000" display="none">
-    <path id="STROKE_d94a502f-e154-4c66-8218-579eacccfaf3" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M 3.883 228.109 L 251.921 228.109 L 251.921 336.817 L 3.883 336.817 Z"></path>
+    <path id="STROKE_d94a502f-e154-4c66-8218-579eacccfaf3" opacity="1.000" display="none" fill="none" stroke="#181712" stroke-width="2.297" stroke-opacity="1.000" stroke-linecap="round" stroke-linejoin="round" d="M -165.119 227.573 L 82.920 227.573 L 82.920 336.281 L -165.119 336.281 Z"></path>
   </g>
 </svg>

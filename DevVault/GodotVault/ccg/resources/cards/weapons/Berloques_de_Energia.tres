@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://4m6je6u4efp6"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_7k2hk"]
+
+[resource]
+script = ExtResource("1_7k2hk")
+card_name = "Berloque de Energia"
+card_type = 1
+card_id = "GS-014"
+card_desc = "Num teste de dif. 8, caso tenha sucesso causará Inaptidão"
+cost_stamina = 2
+dmg_types = 1
+damage_fixo = 2
+upg_atributoi = 3
+conditions = 10
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

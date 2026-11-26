@@ -4,9 +4,10 @@
 
 [resource]
 script = ExtResource("1_hn2dx")
+card_name = "Espada Curta"
 card_type = 1
 card_id = "GS-004"
-card_desc = "Quando invocado gasta 🔴2 e causa 🗡3, num teste de dif. 8, caso tenha sucesso causará sangramento"
+card_desc = "Num teste de dif. 8, caso tenha sucesso causará sangramento"
 cost_stamina = 2
 dmg_types = 1
 damage_fixo = 3

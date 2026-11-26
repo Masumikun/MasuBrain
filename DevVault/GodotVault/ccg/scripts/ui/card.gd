@@ -8,7 +8,6 @@ class_name Card
 			return
 		update_visual()
 
-#@onready var _icon: TextureRect = $Modelo/CardIconSprite
 @onready var _name: Label = $Display/NameLbl
 @onready var _type: Label = $Display/TypeLbl
 @onready var _id: Label = $Display/IDLbl
@@ -30,7 +29,6 @@ func update_visual():
 	
 	_name.text = data.card_name
 	_id.text = data.card_id
-	
 	_type.text = CardData.str_cardtype(data.card_type)
 	
 	_stamina.text = str(data.cost_stamina)
@@ -44,13 +42,21 @@ func update_visual():
 		_atk.text = str(data.dice_qty) + "d" + str(data.dice_face)
 	else:
 		_atk.text = "—"
+		
+	var attr_text = ""
+	if data.upg_atributoi != CardData.UpgAttr.nulo:
+		attr_text = "[Escala: " + CardData.str_upgattr(data.upg_atributoi)
+		if data.upg_atributoii != CardData.UpgAttr.nulo:
+			attr_text += " / " + CardData.str_upgattr(data.upg_atributoii)
+		attr_text += "]\n"
 	
 	if(data.slot_type != CardData.SlotsTypes.nulo):
-		_slots.text = str(data.ammo_capacity) + " " + CardData.str_slotstype(data.slot_type)
+		var slot_letter = CardData.str_slotstype(data.slot_type).left(1).to_upper()
+		_slots.text = str(data.ammo_capacity) + " " + slot_letter
 	else:
 		_slots.text = "—"
-		
-	_desc.text = data.card_desc
+	
+	_desc.text = attr_text + data.card_desc
 
 func clear():
 	_name.text = ""

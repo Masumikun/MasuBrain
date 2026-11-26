@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://yqsqqvxsbry4"]
+
+[ext_resource type="Script" uid="uid://dk5i6rmt4d4xw" path="res://scripts/data/CardData.gd" id="1_ef4gg"]
+
+[resource]
+script = ExtResource("1_ef4gg")
+card_name = "Poção de Cura"
+card_type = 3
+card_id = "GS-019"
+card_desc = "revilizar 1d20 da vida do jogador"
+cost_supply = 4
+dif = 0
+conditions = 8
+status_face = 20
+turn_face = 4
+metadata/_custom_type_script = "uid://dk5i6rmt4d4xw"

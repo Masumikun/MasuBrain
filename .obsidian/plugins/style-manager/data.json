@@ -1,8 +1,8 @@
 {
-  "__style_manager_appearance": "dark",
-  "__shared_version": 1794426409175,
+  "__style_manager_appearance": "system",
+  "__shared_version": 1795630119232,
   "__style_manager_theme": "Minimal",
-  "__style_manager_accent_color": "#ffff00",
+  "__style_manager_accent_color": "#0000ff",
   "retroma-obsidian-theme@@rtm-ss-markdown-editor-header-simple": true,
   "retroma-obsidian-theme@@rtm-ss-markdown-editor-container-simple": true,
   "retroma-obsidian-theme@@workspace-color-scheme": "rtm-cs-monochromatic-colors",
@@ -30,5 +30,31 @@
         "__style_manager_snippets": []
       }
     }
-  }
+  },
+  "minimal-style@@callouts-style": "callouts-outlined",
+  "minimal-style@@metadata-dividers": true,
+  "minimal-style@@checkbox-shape": "checkbox-square",
+  "minimal-style@@minimal-strike-lists": true,
+  "minimal-style@@tx1@@dark": "#FFFFFF",
+  "minimal-style@@hl1@@dark": "#646464",
+  "minimal-style@@tx2@@dark": "#8C8C8C",
+  "minimal-style@@tx3@@dark": "#B5B5B5",
+  "minimal-style@@text-formatting@@dark": "#FFFF00",
+  "minimal-style@@italic-color@@dark": "#00FFFF",
+  "minimal-style@@bold-color@@dark": "#FFB400",
+  "minimal-advanced@@cursor": "pointer",
+  "minimal-style@@row-lines": true,
+  "minimal-style@@col-lines": true,
+  "minimal-style@@table-lines": true,
+  "minimal-style@@row-alt": true,
+  "minimal-style@@col-alt": true,
+  "minimal-style@@table-numbers": true,
+  "minimal-style@@table-center": true,
+  "minimal-style@@row-hover": true,
+  "minimal-style@@table-tabular": true,
+  "minimal-style@@table-row-background-hover@@dark": "#69FF70",
+  "minimal-style@@tabs-style": "tabs-modern",
+  "minimal-style@@minimal-tab-text-color-active@@dark": "#8FAFBA",
+  "minimal-style@@tab-stacked-spine-orientation": "tab-stack-top-flipped",
+  "minimal-style@@dataview-inline-lists": true
 }
