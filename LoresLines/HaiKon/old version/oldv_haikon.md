@@ -1,7 +1,7 @@
 ---
 title: Old Versão
 date created: Wed, Nov 11th 2026, 4:51:14 pm
-date modified: Wed, Nov 11th 2026, 5:27:57 pm
+date modified: Wed, Nov 25th 2026, 9:54:15 pm
 ---
 
 # Old Versão
@@ -11,9 +11,9 @@ date modified: Wed, Nov 11th 2026, 5:27:57 pm
 > Janeiro/2026➣ Foi remastered
 > Maio/2026➣ Reescrita e remasterização
 
-[[NotaAutor]]
+〚〚NotaAutor〛〛
 
-[[Hito-bito/dictionary|Dicio]]
+〚〚dictionary|Dicio〛〛
 
 ---
 
@@ -146,16 +146,16 @@ Raposo➣ Sim... *afirmando*
 
 - ["] Enquanto os quatros lideres estavam se preparando para reunião, sobre situação que tomariam diante do raposo que pareceu recentemente.
 
-[[Kami-gami/Tadaki Okuno|Tadaki Okuno]]➣ Que precisa **Nozomi**?
-[[Kami-gami/Akimi Nozomi]]➣ Um Raposo, não registrado foi junto com duas **divisões** que possui, os Furrys (Avalis) que estão cumprindo ordens de divisão da minha **nação**
-[[Kami-gami/Naegi Kunie]]➣ Quero fala com dois **líderes** das **divisões** no local.
+〚〚Tadaki Okuno|Tadaki Okuno〛〛➣ Que precisa **Nozomi**?
+〚〚Akimi Nozomi〛〛➣ Um Raposo, não registrado foi junto com duas **divisões** que possui, os Furrys (Avalis) que estão cumprindo ordens de divisão da minha **nação**
+〚〚Naegi Kunie〛〛➣ Quero fala com dois **líderes** das **divisões** no local.
 Nozomi➣ Por que?
 Naegi➣ Para tira dúvidas sobre que ele fez
 Okuno➣ Realmente Nozo... temos que ir fundo
 
 - ["] Enquanto esperam a decisão de Nozomi, o lider **tigre** chegava com um pouco de estresse 
 
-[[Kami-gami/Kogane Hikan]]➣ Vamos rápido com isso que tenho 5 empréstimos para resolver, ainda tenho 3 controles de despesas para equilibrar no mundo se não tudo vai ladeira a baixo
+〚〚Kogane Hikan〛〛➣ Vamos rápido com isso que tenho 5 empréstimos para resolver, ainda tenho 3 controles de despesas para equilibrar no mundo se não tudo vai ladeira a baixo
 Naegi➣ Calma **Hikan** (*tigre*), eu te ajudo depois se sabe que verde está sempre dando bom sinal para todas nações
 Okuno➣ Aceita um chá de camomila meu caro amigo?
 Hikan➣ Para hoje Okuno...
@@ -163,9 +163,9 @@ Nozomi➣ Akira e Haru estão na linha?
 
 - ["] Os Avalis da parte de comunicação chama seus líderes que atende com preocupação 
 
-[[Kami-gami/Yumoto Akira]]➣ S-sr. Nozomi?...
+〚〚Yumoto Akira〛〛➣ S-sr. Nozomi?...
 Nozomi➣ Poderia responder as perguntas de Sr. Naegi, por favor.
-[[Kami-gami/Nagase Haruichi]]➣ Claro! para hoje, Sr. Nozo
+〚〚Nagase Haruichi〛〛➣ Claro! para hoje, Sr. Nozo
 
 - ["] Nozomi escuta leve tampa e bronca de Akira sobre Haruichi, Nozomi da leve sorriso lembrando de ensinar Haruichi se mais duro, mas deixou sendo esse jeito por aceita através de seu potencial.
 
@@ -186,7 +186,7 @@ Nozomi➣ Ele está chegando...
 
 - ["] Uma nave pousou enquanto um raposo com única cauda saída do local, **Naegi** segurava um <mark style="background: rgba(255, 255, 0, 0.5);">livro de espécie</mark> de **Furrys** existentes no mundo.
 
-[[Hito-bito/dictionary|Book Races]]
+〚〚dictionary|Book Races〛〛
 
 Naegi➣ Chegou o grande raposo
 
@@ -256,7 +256,7 @@ Combatente➣ Certo, eu irei apenas com moedas de ouro padrão do reino para nó
 Ladino➣ Concordo.
 Rei➣ Obrigado... qual seu nome sr. paladino...
 Devoto➣ Apenas me chame como quiser meu rei, mas que não influencia na minha deusa
-Rei➣ Certo... eu irei chamar de ❝Salvador da [[Kami-gami/Gami/1_Divindade]]
+Rei➣ Certo... eu irei chamar de ❝Salvador da 〚〚1_Divindade〛〛
 
 ---
 
@@ -292,11 +292,11 @@ Sobre tudo que esteve nesse planeta reinado por humanos que vivam em divisões d
 
 Diante sua repulsa de mitologia mais forjada de suas crenças, definiram aqueles que não era previsto como escrito como destino, foi forjado mais uma crença para idealiza que não saberiam lidar.
 
-Então julgaram como [[Tsuzuku/Oniricos|Demônios]], porém sobre isso um dia a humanidade iria sofrer a decadência na mente dos *Oníricos* eles já viam isso antes de acontecer sobre como sua população se passava como **deuses**
+Então julgaram como 〚〚Oniricos|Demônios〛〛, porém sobre isso um dia a humanidade iria sofrer a decadência na mente dos *Oníricos* eles já viam isso antes de acontecer sobre como sua população se passava como **deuses**
 
 Quando um meteoro caiu sobre a terra deixando uma cratera em volta de sua região, sua origem estava adormecendo ainda, mas iria eclodir para nascer da verdadeira **decadência** da humanidade.
 
-Com luzes do contos de um herói que humanidade não tinha crenças, mas mesmo assim idealizaram através daquele que usava a espada em suas mãos em nome de seu dogma mais forte como chamava de [[Kami-gami/Gami/Aeraf]].
+Com luzes do contos de um herói que humanidade não tinha crenças, mas mesmo assim idealizaram através daquele que usava a espada em suas mãos em nome de seu dogma mais forte como chamava de 〚〚Aeraf〛〛.
 
 > ⏳ Depois da Explosão
 
@@ -310,7 +310,7 @@ Na hora que os *Oníricos* viram a pedra eclodir foi rápido que seu inimigo já
 
 Em meio das lutas, forjando sua força com furia para vencer aquilo que não via, nem mesmo a humanidade lidou com criatura, enquanto guerra **bombeou** até cima do que já estava no meio da luta, a espada apenas **sangrou** sobre último suspiro de luta.
 
-> 📜 Session — [[Kaigi/Session1|Era necessário]]
+> 📜 Session — 〚〚Session1|Era necessário〛〛
 
 Nesse tempo enquanto humanidade que sangrou e lutou pelo seu último local de refúgio deram conta que atraso dos Oníricos os permitiu se esconder, mas mesmo afetaram demais os que lutaram contra a decadência ja estavam mais fracos do que ela, humanidade apenas sangrou o que restou dos Oníricos que ainda lutaram, mas em morte sobre a bomba que levou como se oxigênio de tudo foi levado embora pela explosão.
 
@@ -325,19 +325,19 @@ Enquanto estava seus dias mais claros comum, vivendo normalmente até que a deca
 
 > ⏳Depois da descoberta
 
-Sobre o espaço fora do planeta dos Furrys duas divisões que voaram para o planeta desconhecido estabelecendo uma comunicação com Lider [[Kami-gami/Akimi Nozomi]] para poder da informações sobre como era espaço, naves eram de porte grande, sobre isso quando pousaram declaração de um mundo para poder receber boas vida de dois [[Tsuzuku/Avalis]] que iriam pousar sobre esse mundo.
+Sobre o espaço fora do planeta dos Furrys duas divisões que voaram para o planeta desconhecido estabelecendo uma comunicação com Lider 〚〚Akimi Nozomi〛〛 para poder da informações sobre como era espaço, naves eram de porte grande, sobre isso quando pousaram declaração de um mundo para poder receber boas vida de dois 〚〚Avalis〛〛 que iriam pousar sobre esse mundo.
 
-Enquanto estava exploração o mundo tiveram cada surpresa que o próprio planeta além de seus de origem que não tinha, mas ameaças forma anotadas pelo ponto de vista de [[Kami-gami/Nagase Haruichi]] que já sendo experiente sobre **vegetações**, poderia vê que apesar da beleza mística era cheio de maldade avisadora.
+Enquanto estava exploração o mundo tiveram cada surpresa que o próprio planeta além de seus de origem que não tinha, mas ameaças forma anotadas pelo ponto de vista de 〚〚Nagase Haruichi〛〛 que já sendo experiente sobre **vegetações**, poderia vê que apesar da beleza mística era cheio de maldade avisadora.
 
 O que ficou sobre pontos de defesa para proteção da divisão que focada em vegetação, eles eram mais ponto de combate.
 
-Sobre a liderança do [[Kami-gami/Yumoto Akira]] sua divisão era ponto de defesa diante dos que trabalham com mente e mãos
+Sobre a liderança do 〚〚Yumoto Akira〛〛 sua divisão era ponto de defesa diante dos que trabalham com mente e mãos
 
-> 📜 Session — [[Kaigi/Session2|O silêncio da floresta]]
+> 📜 Session — 〚〚Session2|O silêncio da floresta〛〛
 
 Enquanto os Furrys que explorando o planeta que seria descoberto por meios que poderiam surgir revelações.
 
-> 📝 Registro — [[Hito-bito/灰痕の跡跡|Planeta Desconhecido]]
+> 📝 Registro — 〚〚灰痕の跡跡|Planeta Desconhecido〛〛
 
 ## Era Xangru
 > ⏳Antes da invocação
@@ -348,12 +348,12 @@ Nesse mundo estava origem de humanos que aidna vivos, porém serem ligados ao mu
 
 Estava um reino que buscava histórias até relíquias depois de guerras contra uma raça que viveu em seu planeta em conjunto, os derrotando encontrou o livro que foi escrito pela mão de um antigo **feiticeiro**.
 
-> 📝 Registro — [[Kiroku/Ilusion & Curses]]
-> 📜 Session — [[Kaigi/Session5|Os salvadores do caos]]
+> 📝 Registro — 〚〚Ilusion & Curses〛〛
+> 📜 Session — 〚〚Session5|Os salvadores do caos〛〛
 
 Enquanto espaço poderia haver uma nave, quando o espaço deixou de visualizar tudo, enquanto o **Artesão** estava em sua mesa esperando o prelúdio fosse contado pelo que seu acreditar, sobre uma nave interstelar com uma marca de cauda, estava sobre voo para pousa no planeta que se foi em decadência sendo descoberto na mãos de duas **divisões**
 
-> 📜 Session — [[Kaigi/Session6|O espaço vazio]]
+> 📜 Session — 〚〚Session6|O espaço vazio〛〛
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -423,23 +423,23 @@ Em breve
 
 # Ketsura
 ## Nações
-- País do [[../Kami-gami/Naegi Kunie]]
+- País do 〚〚Naegi Kunie〛〛
 	- Brilho Verdante
 	- Vila Da Calmaria
 
-- País do [[../Kami-gami/Tadaki Okuno]]
+- País do 〚〚Tadaki Okuno〛〛
 	- Floresta Acidentada
 	- Lago Dual
 
-- País do [[../Kami-gami/Akimi Nozomi]]
+- País do 〚〚Akimi Nozomi〛〛
 	- Mansão Da Frieza *(local neutro, onde os 5 líderes se reúnem)*
 	- City Avalis
 
-- País do [[../Kami-gami/Kogane Hikan]]
+- País do 〚〚Kogane Hikan〛〛
 	- *Em construção*
 
 ## Fora De Ketsura
-- [[../Kami-gami/Hitoshi Ryō]] — base militar (Nave Militar), a 5 anos-luz do planeta, guardando a rota entre Ketsura e [[灰痕の跡跡|o Desconhecido]]
+- 〚〚Hitoshi Ryō〛〛 — base militar (Nave Militar), a 5 anos-luz do planeta, guardando a rota entre Ketsura e 〚〚灰痕の跡跡|o Desconhecido〛〛
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -449,7 +449,7 @@ Em breve
 ## Bioma — Neve
 Um local onde tudo gelo, aqui parece total com vida, mas simplesmente está com um bunker de um laboratório deixando com sangue, enquanto o cenário mais aberto.
 
-Então aqui a morte será sua aliada se você não tiver proteções derivadas de origem de [[Ketsura]], simplesmente irá morrer pelo tempo frio que evidente nesse bioma.
+Então aqui a morte será sua aliada se você não tiver proteções derivadas de origem de 〚〚Ketsura〛〛, simplesmente irá morrer pelo tempo frio que evidente nesse bioma.
 Sendo também uma espécie que imune ao frio ou resistência ao frio natural, comparação seria mesmo nível do frio existente na terra só que mais rígido por causa evento de **exploração**
 
 ### Laboratório
@@ -460,7 +460,7 @@ Resto de sangue existente no cenário, pode se colocado como visão de perigo, m
 bunker logo dentro um espaço com folhas e registro, podem está inteiro sendo bem raro e pouco, podem está rasgados e incompletos com uma quantidade maior em relação com o inteiros, com manchas de sangue espalhadas.
 
 ## Bioma — Vegetal 1
-Um local onde toda vegetações são diferentes da origens de [[Ketsura]] sendo um bioma que está com espécie de química ou analogia diferente de sua sub-origem própria.
+Um local onde toda vegetações são diferentes da origens de 〚〚Ketsura〛〛 sendo um bioma que está com espécie de química ou analogia diferente de sua sub-origem própria.
 Quando você está cenário como esse parece fantasia pura, já que folhas e aparência das árvores algo onírico[^1]
 
 Quando estão sobre esse bioma ainda tem traços de origem toxicidade já que natureza nasceu d
@@ -476,7 +476,7 @@ Quando estão sobre esse bioma ainda tem traços de origem toxicidade já que na
 ## Era Necessário
 🕰️ Período: Era Hectrr ᯽ Antes da explosão 
 🗺️ Localização: Laboratório 
-🔗 Ligações: [[Session3]], [[../Kami-gami/Gami/Aeraf]], [[../Tsuzuku/Oniricos]]
+🔗 Ligações: 〚〚Session3〛〛, 〚〚Aeraf〛〛, 〚〚Oniricos〛〛
 
 - ["] Sobre gritos que pediam socorro, estavam pesados diante disso, quando entraram no bunker, aquele que estava esperando pelo seu amigo de laboratório, mas com voz determinado a salvar o resto da humanidade
 
@@ -493,7 +493,7 @@ cientista (2)➣ Agora ela vai —
 - ["] Sobre o chão com sangue um corpo caído, algo que estava lado de fora, bateu sobre a porta, não era possível vê pela olhos humanos.
 
 ---
-> 📜 [[Session3|Os demônios]]
+> 📜 〚〚Session3|Os demônios〛〛
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -503,7 +503,7 @@ cientista (2)➣ Agora ela vai —
 ## O Silêncio Da Floresta
 🕰️ Período: Era Hyrdax ᯽ Descobrindo o planeta desconhecido
 🗺️ Localização: Floresta Mística
-🔗 Ligações: [[../Kami-gami/Nagase Haruichi]], [[../Kami-gami/Yumoto Akira]], [[../Hito-bito/Ketsura]], [[../Hito-bito/灰痕の跡跡]]
+🔗 Ligações: 〚〚Nagase Haruichi〛〛, 〚〚Yumoto Akira〛〛, 〚〚Ketsura〛〛, 〚〚灰痕の跡跡〛〛
 
 - ["] Quando o solo era vivo, mas sobre cenário de ventos que batiam na folhas vibrantes sobre tudo que parecia trazer presença de alguém que poderia causar ameaça para os visitantes de longa distância
 
@@ -531,9 +531,9 @@ Yumoto Akira➣ Bom... ok...
 ## Os Demônios
 🕰️ Período: Era Hectrr ᯽ Antes da explosão
 🗺️ Localização: Subsolo de caverna
-🔗 Ligações: [[../Tsuzuku/Oniricos|Oníricos]], [[Session4]]
+🔗 Ligações: 〚〚Oniricos|Oníricos〛〛, 〚〚Session4〛〛
 
-- ["] Quando equipe de mineração estava devidamente descendo descobrindo um fragmento brilhando enquanto dava vida algo que deixou espantados de vê que eram [[../Tsuzuku/Oniricos|Oníricos]].
+- ["] Quando equipe de mineração estava devidamente descendo descobrindo um fragmento brilhando enquanto dava vida algo que deixou espantados de vê que eram 〚〚Oniricos|Oníricos〛〛.
 
 Minerador (1)➣ Que porra essa? 
 *Dizia com surpresa e discordia*
@@ -544,7 +544,7 @@ Minerador (2)➣ Vamos embora gente não tem nada especial aqui, aquele fragment
 - ["] Assim que foram embora, quem os observando de longe, aparece na suficiente esperando o momento que sabiam que iria acontecer para humanidade
 
 ---
-[[Session4|A espada do dogma]]
+〚〚Session4|A espada do dogma〛〛
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -554,14 +554,17 @@ Minerador (2)➣ Vamos embora gente não tem nada especial aqui, aquele fragment
 ## A Espada De Aeraf
 🕰️ Período: Era Hectrr ᯽ Depois da caida do meteoro
 🗺️ Localização: Cratera do meteoro
-🔗 Ligações: [[../Kami-gami/Gami/Aeraf]], [[../Tsuzuku/Oniricos]]
+🔗 Ligações: 〚〚Aeraf〛〛, 〚〚Oniricos〛〛
 
 - ["] Quando o meteoro caiu o humano que estava absorto em seu livro, sobre divindade **Aeraf** que dizia no escrito:
 
-> [!abstract] O nascido a puxa a espada poderosa do rio quando empunhada na mão do verdadeiro deixará de se se uma pedra do mar comum, vai aparecer como espada realmente no mão do que foi escolhido como herói enquanto os que não são nunca poderão empunhar em suas mãos.
+> [!abstract] 
+> O nascido a puxa a espada poderosa do rio quando empunhada na mão do verdadeiro deixará de se se uma pedra do mar comum, vai aparecer como espada realmente no mão do que foi escolhido como herói enquanto os que não são nunca poderão empunhar em suas mãos.
 
-> [!abstract] Quem for o herói deves a mudança da humanidade crescendo como herói para salvação do mundo sobre o demônio do meteoro que cairá nessa terra apenas quem sangra até último momento lutando matando o inimigo poderá se visto como discípulo final meu.
-> > [!info] Enquanto o herói que leu o meteoro caiu sobre a terra, o evento acontece como [[../TSG|Kemonotachi No Wakusei]] diz.
+> [!abstract] 
+> Quem for o herói deves a mudança da humanidade crescendo como herói para salvação do mundo sobre o demônio do meteoro que cairá nessa terra apenas quem sangra até último momento lutando matando o inimigo poderá se visto como discípulo final meu.
+> > [!info] 
+> > Enquanto o herói que leu o meteoro caiu sobre a terra, o evento acontece como 〚〚TSG|UntitledBook〛〛 diz.
 
 ### Luta De Opções
 - ["] Sentindo cego sobre o que podeira vê que não poderia vê, mas havia uma luta seres azuis contra algo que não tinha seu tom de pele
@@ -589,10 +592,10 @@ Onírico (2)➣ Deixa ele, se morremos ele vai morrer junto ou sozinho dependend
 herói➣ por que... aeraf... não *tosse*  con... *tosse* *tosse* se...
 *resposta para no meio da frase com ele morrendo*
 
-onírico (3)➣ Dihlir[^1]... *tosse* *tosse* eu... aceito... 
+onírico (3)➣ Dihlir[^3]... *tosse* *tosse* eu... aceito... 
 *foram suas últimas palavras*
 
-[^1]: Uma divindade acreditada pelos Oníricos.
+[^3]: Uma divindade acreditada pelos Oníricos.
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -604,9 +607,11 @@ onírico (3)➣ Dihlir[^1]... *tosse* *tosse* eu... aceito...
 🗺️ Localização:
 🔗 Ligações:
 
-> [!info] A muito tempo um reino que fosse atacado por [[../Kami-gami/Gami/2_Divindade|2° Divindade]] que faria ameaça sobre mundo enquanto herois invocado pela [[../Kami-gami/Gami/1_Divindade|1° Divindade]], seguiriam sua ordens para purificação do mundo
+> [!info] 
+> A muito tempo um reino que fosse atacado por 〚〚2_Divindade|2° Divindade〛〛 que faria ameaça sobre mundo enquanto herois invocado pela 〚〚1_Divindade|1° Divindade〛〛, seguiriam sua ordens para purificação do mundo
 
-> [!abstract] ❝*Sobre a forja da invocação, um dia vai vir os escolhidos pela/o [[../Kami-gami/Gami/1_Divindade|1° Divindade]] trazendo paz sobre a destruídos da [[../Kami-gami/Gami/2_Divindade|2° Divindade]] e o mundo poderá te paz*❞
+> [!abstract] 
+> ❝*Sobre a forja da invocação, um dia vai vir os escolhidos pela/o 〚〚1_Divindade|1° Divindade〛〛 trazendo paz sobre a destruídos da 〚〚2_Divindade|2° Divindade〛〛 e o mundo poderá te paz*❞
 
 ### Desespero Do Rei
 Rei➣ Invoquem os heróis para deter a destruição de nosso planeta
@@ -614,7 +619,8 @@ Devoto (Avatar)➣ Vossa majestade, peço para me comunicar com esse deus que es
 
 - ["] O rei permitiu, quando o devoto tentou se comunicar, claramente sentiu energia mágica havia no livro fazendo o desmaiar, que também estava escrito no livro
 
-> [!abstract] ❝*Quem se comunica com o livro sentirá a energia diante aquilo que foi revestido, para da sinal sobre o mundo decair a ruínas da [[../Kami-gami/Gami/2_Divindade|2° Divindade]] com forças de pedido de socorro da [[../Kami-gami/Gami/1_Divindade|1° Divindade]]*❞
+> [!abstract] 
+> ❝*Quem se comunica com o livro sentirá a energia diante aquilo que foi revestido, para da sinal sobre o mundo decair a ruínas da 〚〚2_Divindade|2° Divindade〛〛 com forças de pedido de socorro da 〚〚1_Divindade|1° Divindade〛〛*❞
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -626,11 +632,11 @@ Devoto (Avatar)➣ Vossa majestade, peço para me comunicar com esse deus que es
 🗺️ Localização: Nave
 🔗 Ligações:
 
-[[../Kami-gami/Masumi Renroshi]]➣ O experimento **FX01** está pronto para teste
+〚〚Masumi Renroshi〛〛➣ O experimento **FX01** está pronto para teste
 
-> 📝 Registro — [[../Kiroku/FragMana]]
+> 📝 Registro — 〚〚FragMana〛〛
 
-Renroshi➣ Enquanto faço meus experimentos, vou no vizinho de meu [[../Hito-bito/Ketsura|Planeta Natal]], vamos ver que posso fazer por enquanto com minha descoberta.
+Renroshi➣ Enquanto faço meus experimentos, vou no vizinho de meu 〚〚Ketsura|Planeta Natal〛〛, vamos ver que posso fazer por enquanto com minha descoberta.
 
 - ["] A nave foi em direção ao mundo que era decadência na Era Hectrr, mas atualmente vem ficando diferente depois do evento da bomba.
 
@@ -641,7 +647,7 @@ Renroshi➣ Enquanto faço meus experimentos, vou no vizinho de meu [[../Hito-bi
 
 Renroshi➣ Lado bom disso que posso chega rápido antes do próximo mês, também preciso pensar que reduzir margem de dias para horas.
 
-> 📜 Session [[Session7|Um coragem oculta]]
+> 📜 Session 〚〚Session7|Um coragem oculta〛〛
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -650,8 +656,8 @@ Renroshi➣ Lado bom disso que posso chega rápido antes do próximo mês, tamb�
 # Session 7
 ## A Nova Nave
 🕰️ Período: Era Xangru
-🗺️ Localização: [[../Hito-bito/灰痕の跡跡]] — Vegetação
-🔗 Ligações:  [[../Kami-gami/Yumoto Akira|Yumoto Akira]], [[../Kami-gami/Nagase Haruichi|Nagase Haruichi]], [[../Kami-gami/Akimi Nozomi|Akimi Nozomi]], [[../Kami-gami/Masumi Renroshi|Masumi Renroshi]]
+🗺️ Localização: 〚〚灰痕の跡跡〛〛 — Vegetação
+🔗 Ligações:  〚〚Yumoto Akira|Yumoto Akira〛〛, 〚〚Nagase Haruichi|Nagase Haruichi〛〛, 〚〚Akimi Nozomi|Akimi Nozomi〛〛, 〚〚Masumi Renroshi|Masumi Renroshi〛〛
 
 - ["] Enquanto o espaço estava calmo, diante de dois Avalis que explorando o planeta desconhecido que havia já morto a muito tempo uma nave que pousava interromper suas descobertas isso trás novo inimigo ou aliado a suas mãos.
 
@@ -700,7 +706,7 @@ Yumoto➣ Você ficará na ala de investigação, não irei deixa você passar p
 
 - ["] A Nave fez analise, já queria atacar, mas seguindo com confiança, não queria acabar com os planos de Renroshi, mesmo ele usando esse disfarce que foi levado a sala de investigação.
 
-> 📜 Session [[Session8|Sala de Julgament]]
+> 📜 Session 〚〚Session8|Sala de Julgament〛〛
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -710,7 +716,7 @@ Yumoto➣ Você ficará na ala de investigação, não irei deixa você passar p
 ## O Julgamento
 🕰️ Período: Era Xangru ᯽ Planeta Desconhecido
 🗺️ Localização: Sala de Investigação
-🔗 Ligações: [[../Kami-gami/Masumi Renroshi|Masumi Renroshi]], [[../Kami-gami/Nagase Haruichi|Nagase Haruichi]], [[../Kami-gami/Yumoto Akira|Yumoto Akira]]
+🔗 Ligações: 〚〚Masumi Renroshi|Masumi Renroshi〛〛, 〚〚Nagase Haruichi|Nagase Haruichi〛〛, 〚〚Yumoto Akira|Yumoto Akira〛〛
 
 - ["] Ficou sentado sobre a cadeira enquanto observando para todos esperando que algo bom pode-se surgir diante de seus cenários específico dessa ala que o silêncio era perturbação para inquietos e abraçavel para os quietos
 
@@ -729,7 +735,7 @@ Nagase➣ Qual seu
 
 # Divindade 1
 ## Origem
-Essa **divindade** tem contrução de origens na histórias do próprio mundo medieval, que podeira salvar o *rei* que acredita que a **Deusa**, pode <span style="color:rgb(255, 0, 0)">salvar</span> ele com 5 grande heróis sendo os que vão destruir a decadência de [[2_Divindade]]
+Essa **divindade** tem contrução de origens na histórias do próprio mundo medieval, que podeira salvar o *rei* que acredita que a **Deusa**, pode <span style="color:rgb(255, 0, 0)">salvar</span> ele com 5 grande heróis sendo os que vão destruir a decadência de 〚〚2_Divindade〛〛
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -757,7 +763,7 @@ Muito não modificaram apenas deixaram outros livros que foi combinado entre os 
 > > [!failure] O sacrifico vivente 
 > > O último da **salvação** morreu em sangue diante da espada sagrada.
 > > Eu pode em fim ter meu receptáculo final para criação do novo sangue diante da minha espada
-> > Sua morte irá trazer a liberação de [[Thozun|3° Divindade]].
+> > Sua morte irá trazer a liberação de 〚〚Thozun|3° Divindade〛〛.
 > 
 > 
 
@@ -772,18 +778,18 @@ Um dos 5 líderes de Ketsura, ele faz parte da liderança de duas divisões que 
 Originalmente foi diagnosticado com doença que o impedi viver em terras que não congeladas, parecia um certo tipo de vírus desconhecido, mas alguns Furrys ligação de magia comentam sobre um fragmento de mana corrupto que já foi neutralizado, mas o corpo dele foi afeto, porém tinha cura, mas receita foi perdida a tempos.
 
 ## Nação
-Ele lider da nação onde tudo gelo, maior parte de espécies são [[../Tsuzuku/Avalis]] em sua nação, apenas ele como cargo onde está vive nesse ambiente 
+Ele lider da nação onde tudo gelo, maior parte de espécies são 〚〚Avalis〛〛 em sua nação, apenas ele como cargo onde está vive nesse ambiente 
 
 ### Ambiente
 #### Mansão Da Frieza
 Sendo originalmente ligado a parte mais fria do planeta ketsura, sua estrutura uma grande mansão que acontece reuniões de lideres de ketsura
 
-Próprio Akimi, [[Tadaki Okuno]], [[Naegi Kunie]], [[Kogane Hikan]] e [[Hitoshi Ryō]]
+Próprio Akimi, 〚〚Tadaki Okuno〛〛, 〚〚Naegi Kunie〛〛, 〚〚Kogane Hikan〛〛 e 〚〚Hitoshi Ryō〛〛
 
 #### City Avalis
-Maior parte da nação vive aqui no vasto gelado desse local, todos que vivem aqui são originalmente [[../Tsuzuku/Avalis]], que comum sendo espécie que aguenta temperatura **frio extremo**.
+Maior parte da nação vive aqui no vasto gelado desse local, todos que vivem aqui são originalmente 〚〚Avalis〛〛, que comum sendo espécie que aguenta temperatura **frio extremo**.
 
-Sua cidade voltada para tecnologia mais avançada comparado com nação de [[Kogane Hikan]] + [[Hitoshi Ryō]] que tem tecnologia maiores, porém estão fazendo maior importância em certo objetivos.
+Sua cidade voltada para tecnologia mais avançada comparado com nação de 〚〚Kogane Hikan〛〛 + 〚〚Hitoshi Ryō〛〛 que tem tecnologia maiores, porém estão fazendo maior importância em certo objetivos.
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -791,7 +797,7 @@ Sua cidade voltada para tecnologia mais avançada comparado com nação de [[Kog
 
 
 # Hitoshi Ryō
-Um dos 5 lideres de ketsura que liderança militante, forjada de defesa base lunar, mas sendo uma nave que imitando uma lua, porém fica 5 anos luz de distância do [[../Hito-bito/Ketsura]] que onde vive as 4 nações.
+Um dos 5 lideres de ketsura que liderança militante, forjada de defesa base lunar, mas sendo uma nave que imitando uma lua, porém fica 5 anos luz de distância do 〚〚Ketsura〛〛 que onde vive as 4 nações.
 
 Aparência de um boi.
 
@@ -860,7 +866,7 @@ Uma vila onde vive todos da nação de Naegi constante bem quieto, um local mais
 
 
 # Tadaki Okuno
-Ele é o lobo da história sendo um dos 5 líderes de [[../Hito-bito/Ketsura]], ele atua como **psicólogo** no planeta, geralmente vive no ambiente totalmente acidentado por fora, mas por dentro no centro mais colorido.
+Ele é o lobo da história sendo um dos 5 líderes de 〚〚Ketsura〛〛, ele atua como **psicólogo** no planeta, geralmente vive no ambiente totalmente acidentado por fora, mas por dentro no centro mais colorido.
 
 ## Personalidade
 Possui um jeito mais confiante, as vezes preocupado, mas sempre tem coração bondoso para ajudar sua nação.
@@ -887,7 +893,7 @@ Enquanto a árvore são coloridas e água é azul cristal que brilha refletindo 
 
 
 # Yumoto Akira
-Originalmente um Avali, sendo um guerreiro treinado por [[Hitoshi Ryō]] que envolve uma divisão sendo atualmente direcionado pelo [[Akimi Nozomi]] 
+Originalmente um Avali, sendo um guerreiro treinado por 〚〚Hitoshi Ryō〛〛 que envolve uma divisão sendo atualmente direcionado pelo 〚〚Akimi Nozomi〛〛 
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -909,11 +915,11 @@ Quando estou usando magia ele da um símbolo em resposta os símbolos representa
 # Ilusion & Curses
 ## Ninguém Os Salvarás
 > [!fail] Distorcido ao podre
-> [[../Kami-gami/Gami/1_Divindade|Latonas]] vai purificar tudo diante de [[../Kami-gami/Gami/2_Divindade|Brekhos]] que trouxe a destruição para esse mundo cheio de caos, precisamos de **Latonas** para purificação.
+> 〚〚1_Divindade|Latonas〛〛 vai purificar tudo diante de 〚〚2_Divindade|Brekhos〛〛 que trouxe a destruição para esse mundo cheio de caos, precisamos de **Latonas** para purificação.
 > 
 > Quem ler meu livro irá sentir a magia de **Latonas** diante de tudo que pode se salvo, ela está escolhendo cada herói para um mundo mais cheio de paz em vez de deixa **Brekhos** domine tudo com forças ruins
 > > [!success] Diante de uma luz falsa
-> > Sobre a mão do **padre** estive escrevendo por cima com meu livro em minha mãos de **responsabilidade**, guiarei [[../Kami-gami/Gami/Thozun|Thozun]] para todos verem que existe [[../Kami-gami/Gami/Kromah|Kromah]] como verdeiro criador desse universo maldito
+> > Sobre a mão do **padre** estive escrevendo por cima com meu livro em minha mãos de **responsabilidade**, guiarei 〚〚Thozun|Thozun〛〛 para todos verem que existe 〚〚Kromah|Kromah〛〛 como verdeiro criador desse universo maldito
 
 
 
@@ -952,9 +958,9 @@ Suas formas variam até mesmo em representação aos elementos que construindo s
 ## Essência
 Suas funções são devidamente **essência mágica** de um **elemento** ou mais, sendo variáveis de camada de cada um.
 
-Quando possui quantidade de **elementos** diferentes, mais forte em camada sempre extraindo[^1] primeiro antes dos menores.
+Quando possui quantidade de **elementos** diferentes, mais forte em camada sempre extraindo[^4] primeiro antes dos menores.
 
-[^1]: Quando são usados para quebra partes dele, ou até mesmo derreter como líquido, também podem cortar como fatias artificiais
+[^4]: Quando são usados para quebra partes dele, ou até mesmo derreter como líquido, também podem cortar como fatias artificiais
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
@@ -1017,7 +1023,7 @@ São azul em sua pele, Diante de orelhas longas, não comum como um elfo ou de u
 Olhos que carregam símbolos se sua aparência não forem nascidos com linhas, mas também diante disso poderiam ter braços abissais apenas um lado afetado pelo abissal enquanto outro fica com marca mística de seu olho sobre a mão.
 
 ## Ambiente
-Tiveram sobre abaixo da humanidade por séculos, mesmo vivendo em cavernas ou até subterrâneo, sua vida pragmática diante do brilho do [[../Miyako/fragmentos|Fragmentos]] que foram suas luzes por vários tempos
+Tiveram sobre abaixo da humanidade por séculos, mesmo vivendo em cavernas ou até subterrâneo, sua vida pragmática diante do brilho do 〚〚Miyako/fragmentos|Fragmentos〛〛 que foram suas luzes por vários tempos
 
 <center>
 °•~━━✥ °•~━━✥ °•~━━✥ ┇ ✥━━~•° ✥━━~•° ✥━━~•°
