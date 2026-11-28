@@ -1,7 +1,7 @@
 ---
 title: Hai Kon
 date created: Thu, Oct 8th 2026, 2:08:53 am
-date modified: Wed, Nov 25th 2026, 1:01:41 pm
+date modified: Fri, Nov 27th 2026, 10:44:14 pm
 aliases:
   - Cicatrizes Cinzentas
 tags:
@@ -119,3 +119,6 @@ ele pegou alguns papéis escrevendo passou em livro para manda depois um tesouro
 > > [!cite] Espada
 > > 🜅🜉🜨🜋🜎☋♃
 > > *Sobre guerras está elevação do herói na paz*
+
+
+----

@@ -1,6 +1,6 @@
 ---
 date created: Fri, Nov 20th 2026, 12:21:57 pm
-date modified: Sat, Nov 21st 2026, 11:53:41 am
+date modified: Fri, Nov 27th 2026, 10:46:27 pm
 title: Biblia Do Cristão
 ---
 

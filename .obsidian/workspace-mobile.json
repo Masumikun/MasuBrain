@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "58c72aede06ace01",
+        "id": "2a63ed5d687ba25b",
         "type": "tabs",
         "children": [
           {
-            "id": "c851ee131e927985",
+            "id": "9b5207008e38c1a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LoresLines/HaiKon/Hai Kon.md",
-                "mode": "preview",
+                "file": "Studying/Gigiblia.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hai Kon"
+              "title": "Gigiblia"
             }
           }
         ]
@@ -166,6 +166,18 @@
           "icon": "calendar-with-checkmark",
           "title": "Calendar"
         }
+      },
+      {
+        "id": "b0e1f04436d9d7e0",
+        "type": "leaf",
+        "state": {
+          "type": "file-properties",
+          "state": {
+            "file": "LoresLines/HaiKon/HaiKon-Kanban.canvas"
+          },
+          "icon": "lucide-info",
+          "title": "File properties"
+        }
       }
     ],
     "currentTab": 3
@@ -184,35 +196,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c851ee131e927985",
+  "active": "9b5207008e38c1a6",
   "lastOpenFiles": [
+    "DailyVault/note-book/2026-11-27.md",
+    "DailyVault/private diary/Reflexão.md",
+    "DailyVault/Untitled.md",
+    "LoresLines/五行.md",
+    "LoresLines/HaiKon/Hai Kon.md",
+    "LoresLines/HaiKon/Untitled Kanban.md",
+    "DailyVault/private diary/Aprendizagem.md",
+    "Obsidian.base",
+    "Studying/Gigiblia.md",
+    "LoresLines/HaiKon/HK_KIA.canvas",
+    "IndexBox/Untitled.md",
+    "DevVault/DevVault.md",
+    "DevVault/IndexGodot.md",
+    "Timezone.md",
+    "README.md",
+    "LoresLines/HaiKon/HaiKon_Kanban.canvas",
     "LoresLines/HaiKon/O_despertar_troia.md",
     "LoresLines/HaiKon/Book_Aeraf.md",
     "LoresLines/HaiKon/old version/oldv_haikon.md",
+    "DailyVault/note-book/2026-11-26.md",
+    "IndexBox/morte_fria.md",
+    "IndexBox/CCG — GDD.md",
+    "IndexBox/Platão.md",
+    "DailyVault/dream diary/Day2.md",
+    "LoresLines/HaiKon/HaiKon-Kanban.canvas",
     "LoresLines/AU lines/uchūVault/session_01.md",
     "LoresLines/AU lines/Untitled/Untitled.md",
     "LoresLines/AU lines/FanFic/NT!AU.md",
     "LoresLines/AU lines/PPAU/Alice_CharTemp.md",
     "LoresLines/AU lines/PPAU/Untitled.md",
-    "LoresLines/AU lines/FanFic/NeworldTale ep1.md",
-    "IndexBox/Untitled.md",
-    "IndexBox/morte_fria.md",
-    "IndexBox/Platão.md",
-    "IndexBox/CCG — GDD.md",
-    "LoresLines/HaiKon/Hai Kon.md",
-    "IndexBox/DeepSeek/day1_chat.md",
-    "DevVault/IndexGodot.md",
-    "DailyVault/note-book/2026-11-25.md",
-    "DevVault/GitVault/sobre-mim.md",
-    "DailyVault/AgendaDay.md",
-    "DailyVault/Untitled.md",
-    "LoresLines/五行.md",
-    "Obsidian.base",
-    "DailyVault/note-book/Untitled.md",
-    "DailyVault/note-book/2026-11-23.md",
-    "DailyVault/note-book/2026-11-22.md",
-    "DailyVault/note-book/2026-09-01.md",
-    "DevVault/DevVault.md",
     "Entertainment/Background.svg",
     "DevVault/GodotVault/ccg/resources/cards/magics/Ember.tres",
     "DevVault/GodotVault/ccg/resources/cards/magics/Ember.tres_temp",
